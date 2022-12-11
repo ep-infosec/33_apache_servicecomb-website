@@ -1,0 +1,1003 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.4.1 by Michael Rose
+  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="cn" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>[里程碑]Apache ServiceComb 1.0.0版本正式发布 - Apache ServiceComb</title>
+
+
+
+
+<meta name="description" content="ServieComb版本正式步入稳定态">
+
+
+
+
+<meta name="author" content="Wang Kirin">
+
+<meta property="og:locale" content="cn">
+<meta property="og:site_name" content="Apache ServiceComb">
+<meta property="og:title" content="[里程碑]Apache ServiceComb 1.0.0版本正式发布">
+
+
+  <link rel="canonical" href="https://github.com/pages/apache/incubator-servicecomb-website/cn/docs/release-note-1-0-0">
+  <meta property="og:url" content="https://github.com/pages/apache/incubator-servicecomb-website/cn/docs/release-note-1-0-0">
+
+
+
+  <meta property="og:description" content="ServieComb版本正式步入稳定态">
+
+
+
+  <meta name="twitter:site" content="@ServiceComb">
+  <meta name="twitter:title" content="[里程碑]Apache ServiceComb 1.0.0版本正式发布">
+  <meta name="twitter:description" content="ServieComb版本正式步入稳定态">
+  <meta name="twitter:url" content="">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+    <meta name="twitter:creator" content="@">
+  
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2018-08-13T00:00:00+08:00">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Apache ServiceComb",
+      "url" : "https://github.com/pages/apache/incubator-servicecomb-website",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+  <meta name="google-site-verification" content="HvJjNd7vvJ-yjSTHlBiIWEYxp_Hrz-PYEY5Idz9LRcA" />
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Apache ServiceComb Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+<script src="/assets/vendor/prism/prism.js"></script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+<script src="https://www.apachecon.com/event-images/snippet.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/assets/vendor/prism/prism.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+<meta http-equiv="cleartype" content="on">
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+<link href="https://fonts.loli.net/css?family=Roboto:400,500,700|Source+Code+Pro" rel="stylesheet">
+<script src="/assets/js/custom.js"></script>
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead" onmouseleave="$('#childrenShow').css('display', 'none')">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+	      
+          <a class="site-title active" href="/cn"><img src="https://www.apache.org/img/servicecomb.png"></a>
+	      
+        <ul class="visible-links">
+          
+            
+          
+          
+            
+              <li class="masthead__menu-item" onmouseenter="$('#childrenShow').css('display', 'none')">
+                
+                  <a href="/cn/">首页</a>
+                
+              </li>
+            
+          
+            
+          
+          
+            
+              <li class="masthead__menu-item" onmouseenter="$('#childrenShow').css('display', 'none')">
+                
+                  <a href="/cn/developers/">项目</a>
+                
+              </li>
+            
+          
+            
+          
+          
+            
+            <li class="def-nav-li" onmouseenter="$('#childrenShow').css('display', 'block')">
+              
+              
+              
+
+              
+                <a href="/cn/docs/users/">文档</a>
+              
+
+              <ul id="childrenShow" class="def-children-show-cn" onmouseleave="$('#childrenShow').css('display', 'none')">
+                
+                <li><a href="/cn/docs/getting-started/" class="">入门指南</a></li>
+                
+                <li><a href="/cn/docs/users/" class="">用户手册</a></li>
+                
+                <li><a href="/cn/slides/" class="">大咖视频</a></li>
+                
+                <li><a href="/cn/faqs/" class="">常见问题</a></li>
+                
+              </ul>
+            </li>
+          
+          
+            
+          
+          
+            
+              <li class="masthead__menu-item" onmouseenter="$('#childrenShow').css('display', 'none')">
+                
+                  <a href="/cn/year-archive/">博文</a>
+                
+              </li>
+            
+          
+            
+          
+          
+            
+              <li class="masthead__menu-item" onmouseenter="$('#childrenShow').css('display', 'none')">
+                
+                  <a class="active" href="/cn/release/">下载</a>
+                
+              </li>
+            
+          
+        </ul>
+        <button><div class="navicon"></div></button>
+        <ul class="hidden-links hidden"></ul>
+        <div class="nav-lang">
+          
+            
+            
+            <a href=/docs/release-note-1-0-0>English</a>
+          
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+      
+      <div class="back-to-home"><a href="/cn/">首页</a> > [里程碑]Apache ServiceComb 1.0.0版本正式发布</div>
+      
+  
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+
+  <div class="author__content">
+    <h3 class="author__name" itemprop="name">Wang Qilin</h3>
+    
+      <p class="author__bio" itemprop="description">
+	    
+	      
+	        I like opensource!!
+	      
+	    
+      </p>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">关注</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        <li>
+          <a href="https://github.com/wangkirin" itemprop="url">
+            <i class="fa fa-fw fa-chain" aria-hidden="true"></i> 网站
+          </a>
+        </li>
+      
+
+      
+        <li>
+          <a href="mailto:wangqilintech@gmail.com">
+            <meta itemprop="email" content="wangqilintech@gmail.com" />
+            <i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> 电子邮箱
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
+      <i class="fa fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="[里程碑]Apache ServiceComb 1.0.0版本正式发布">
+    <meta itemprop="description" content="ServieComb版本正式步入稳定态">
+    <meta itemprop="datePublished" content="August 13, 2018">
+    <meta itemprop="dateModified" content="June 14, 2018">
+
+    <div class="page__inner-wrap">
+      
+        
+          <header>
+            <h1 class="page__title" itemprop="headline">[里程碑]Apache ServiceComb 1.0.0版本正式发布
+</h1>
+            
+              <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+
+
+  少于 1 分钟 阅读
+
+</p>
+            
+          </header>
+        
+      
+
+      <section class="page__content" itemprop="text">
+        <p>​	近日，正在Apache基金会孵化项目—<strong>微服务解决方案Apache ServiceComb</strong>(incubating) 的1.0.0版本通过社区投票，正式发布。这次发版的项目包括  Apache ServiceComb Java-Chassis （以下简称 <strong>Java-chassis</strong>）以及Apache ServiceComb ServiceCenter (以下简称<strong>ServiceCenter</strong>)。ServiceComb从2017年12月进入Apache基金会孵化至今半年时间内，一步一个脚印，于2018年3月发布1.0.0-m1版本、2018年6月1.0.0-m2发布版本，并于2018年8月完成了1.0.0里程碑版本的发布。当前，已经有10+企业使用了ServiceComb 进行商用，社区参会10+次，举办3场Meetup。本次的1.0.0版本发布，意味着ServiceComb 版本在符合Apache软件基金会要求的前提下，正式进入了稳定态。ServiceComb进入Apache基金会孵化后的主要新增特性及提升如下：</p>
+
+<h2 id="java-chassis">Java-chassis</h2>
+
+<ul>
+  <li>
+    <p>全新的监控指标（Metrics）模块，增加大量监控指标，支持Prometheus集成</p>
+
+    <ul>
+      <li>更多详细内容请参考<a href="http://docs.servicecomb.io/zh_CN/general-development/metrics.html">Metrics介绍</a>和<a href="http://servicecomb.incubator.apache.org/cn/users/metrics-integration-with-prometheus-in-1.0.0-m1/">如何集成Prometheus</a></li>
+    </ul>
+  </li>
+  <li>
+    <p>重构配置中心，支持对接携程Apollo作为配置中心，并且可以方便的扩展对接其它三方配置中心</p>
+
+    <ul>
+      <li>更多详细内容请参考<a href="http://servicecomb.incubator.apache.org/cn/docs/config_center_integration/">配置中心选型与对接</a>；</li>
+    </ul>
+  </li>
+  <li>
+    <p>POJO编程模型支持用户使用CompletableFuture异步编程</p>
+
+    <ul>
+      <li>更新详细内容请参考<a href="http://docs.servicecomb.io/zh_CN/build-consumer/develop-consumer-using-rpc.html">使用透明RPC方式开发服务消费者</a>中“reactive”部分</li>
+    </ul>
+  </li>
+  <li>
+    <p>POJO编程模型支持用户使用Object和Generic类型作为调用参数</p>
+
+    <ul>
+      <li>更多详细内容请参考<a href="http://docs.servicecomb.io/zh_CN/build-provider/interface-constraints.html">接口定义和数据类型</a></li>
+    </ul>
+  </li>
+  <li>
+    <p>升级Zipkin到Zipkin2，同时支持v1和v2版本Zipkin server</p>
+
+    <ul>
+      <li>关于如何在ServiceComb中使用Zipkin请参考<a href="http://servicecomb.incubator.apache.org/cn/docs/tracing-with-servicecomb/">分布式调用链追踪</a></li>
+    </ul>
+  </li>
+  <li>
+    <p>微服务间通讯提供文件流传输能力，支持音乐、图片等多媒体场景</p>
+
+    <ul>
+      <li>如何使用文件流传输请参考<a href="http://docs.servicecomb.io/zh_CN/general-development/file-upload.html">文件上传</a>和<a href="http://docs.servicecomb.io/zh_CN/general-development/file-download.html">文件下载</a></li>
+    </ul>
+  </li>
+  <li>
+    <p>在服务级别QPS控制基础上，新增支持API级别QPS控制；</p>
+
+    <p>现在支持使用<code class="language-plaintext highlighter-rouge">servicecomb.flowcontrol.Consumer.qps.limit.[ServiceName].[Schema].[operation]</code> 配置API级别QPS控制。</p>
+  </li>
+  <li>
+    <p>增加脚手架和start.servicecomb.io，支持用户快速构建工程，提供完整的开箱即用能力；</p>
+
+    <p>现在创建一个ServiceComb微服务可以通过Apache Maven Archetype方式快速构建，更多详细内容请参考<a href="https://github.com/apache/incubator-servicecomb-java-chassis/blob/master/archetypes/README.md">ServiceComb Java Chassis Archetypes</a>，您也可以直接访问<a href="http://start.servicecomb.io/">start.servicecomb.io</a>使用ServiceComb集成SPRING INITIALIZR UI的方式创建；</p>
+  </li>
+  <li>
+    <p>新增演示如何使用Gradle构建ServiceComb项目；</p>
+
+    <ul>
+      <li>我们在<a href="https://github.com/apache/incubator-servicecomb-java-chassis/tree/master/samples/bmi">BMI</a>项目中增加了Gradle配置；</li>
+    </ul>
+  </li>
+  <li>
+    <p>异步编程模型支持<code class="language-plaintext highlighter-rouge">AsycRestTemplate</code>；</p>
+
+    <ul>
+      <li>关于如何使用请参考<a href="http://docs.servicecomb.io/zh_CN/build-consumer/using-AsyncRestTemplate.html">使用AsynRestTemplate开发服务消费者</a>；</li>
+    </ul>
+  </li>
+  <li>
+    <p>新增支持Http2协议；</p>
+
+    <ul>
+      <li>关于如何使用请参考<a href="http://docs.servicecomb.io/zh_CN/build-provider/protocol/http2.html">使用Http2通信</a></li>
+    </ul>
+  </li>
+  <li>
+    <p>实现错误注入接口，允许通过拦截服务请求构造异常场景，例如可以设置发往指定微服务的请求的时延和错误及其触发概率；</p>
+
+    <ul>
+      <li>更多详细内容请参考<a href="http://docs.servicecomb.io/zh_CN/build-consumer/fault-injection.html">故障注入</a>；</li>
+    </ul>
+  </li>
+  <li>
+    <p>新增服务Dev运行模式，开启Dev模式时，支持契约动态修改；</p>
+
+    <ul>
+      <li>如何设置Dev运行模式请参考<a href="http://docs.servicecomb.io/zh_CN/general-development/local-develop-test.html">本地开发和测试</a>中的“通过设置环境信息方便本地调试”部分；</li>
+    </ul>
+  </li>
+  <li>
+    <p>实现优雅停机，关闭服务时进行反注册，确保完成已接受请求并完整释放资源；</p>
+  </li>
+  <li>
+    <p>扩展微服务公私钥认证机制，增加了黑白名单功能；</p>
+
+    <ul>
+      <li>ServiceCenter已经支持通过黑白名单控制微服务的注册发现，但是由于微服务之间最终是直连调用，因此微服务本身也需要有独立的黑白名单认证功能，如何设置请参考<a href="http://docs.servicecomb.io/zh_CN/references-handlers/publickey.html">公钥认证</a>中的“配置黑白名单”部分；</li>
+    </ul>
+  </li>
+  <li>
+    <p>支持Cross-Origin Resource Sharing (CORS)；</p>
+
+    <ul>
+      <li>即支持跨域请求访问设置，例如现在Ajax可以直接访问微服务了，更多详细内容请参考<a href="http://docs.servicecomb.io/zh_CN/general-development/CORS.html">CORS机制</a></li>
+    </ul>
+  </li>
+  <li>
+    <p>扩展了Rest Endpoint的Access Log机制；</p>
+
+    <ul>
+      <li>以前用户只能设置Access Log的Pattern，现在用户可以进一步自定义Access Log Item，更多内容请参考<a href="http://docs.servicecomb.io/zh_CN/build-provider/access-log-configuration.html">Access Log配置</a></li>
+    </ul>
+  </li>
+  <li>
+    <p>SpringMVC编程模型现在同样支持类对象作为参数</p>
+
+    <ul>
+      <li>用户可以使用类对象作为参数，例如：</li>
+    </ul>
+
+    <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nd">@RequestMapping</span><span class="o">(</span><span class="s">"/address"</span><span class="o">)</span>
+<span class="kd">public</span> <span class="nc">String</span> <span class="nf">address</span><span class="o">(</span><span class="nc">Address</span> <span class="n">address</span><span class="o">)</span> <span class="o">{</span> <span class="o">...</span> <span class="o">}</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Address</span> <span class="o">{</span>
+	<span class="nc">String</span> <span class="n">country</span><span class="o">;</span>
+	<span class="nc">String</span> <span class="n">city</span><span class="o">;</span>
+<span class="o">}</span>
+</code></pre></div>    </div>
+
+    <p>将会自动转化为<code class="language-plaintext highlighter-rouge">/address?city={city}&amp;country={country}</code></p>
+  </li>
+  <li>
+    <p>部署在Tomcat等Web容器中的微服务，现在支持结合context path和servlet pattern的访问路径请求服务</p>
+
+    <ul>
+      <li>例如调用路径为<code class="language-plaintext highlighter-rouge">cse://service/a/b...</code>，部署在Tomcat等Web容器中后也支持以<code class="language-plaintext highlighter-rouge">cse://service/{context path}/{servlet pattern}/a/b...</code>为URL访问；</li>
+    </ul>
+  </li>
+  <li>
+    <p>缺省自动扫描main函数所在包，简化用户配置</p>
+  </li>
+  <li>
+    <p>提供客户端ping机制，能够通过ping扩展，检测客户端缓存实例是否可用。该功能默认启用，配合实例隔离功能对检测失败的实例进行隔离</p>
+  </li>
+  <li>
+    <p>当微服务发生服务降级，实例隔离熔断等状况时，将触发相应的Event，便于第三方集成（上报）</p>
+
+    <ul>
+      <li>如何获取这类Event请参考<a href="http://docs.servicecomb.io/zh_CN/general-development/AlarmEvent.html">获取熔断与实例隔离告警事件</a>；</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="servicecenter">ServiceCenter</h2>
+
+<p><img src="/assets/images/Service-Center-UI-Preview.gif" alt="1" /></p>
+
+<ul>
+  <li>主要新增了如下特性：
+    <ul>
+      <li>PACT Broker共享契约支持</li>
+      <li>支持<code class="language-plaintext highlighter-rouge">AsycRestTemplate</code>异步编程</li>
+      <li>日志分割（Log Rotation）</li>
+      <li>支持IPv6</li>
+      <li>支持后端存储拓展</li>
+      <li>契约测试：支持使用前端对Swagger API进行测试
+        <ul>
+          <li>详情请参考<code class="language-plaintext highlighter-rouge">http://servicecomb.incubator.apache.org/docs/service-center-ui/</code></li>
+        </ul>
+      </li>
+      <li>消费者服务自发现</li>
+    </ul>
+  </li>
+  <li>稳定性提升及bug fix</li>
+  <li>优化API接口，显著提高性能</li>
+  <li>优化Restful 客户端及插件加载器，提升易用性</li>
+  <li>无缝集成metrics 及tracing工具，提升监控能力</li>
+  <li>增加了默认的TLS加密套件，提升基于规则的服务发现的安全性</li>
+  <li>服务依赖管理采用事件驱动机制</li>
+  <li>提升ETCD链接的弹性伸缩能力和自我修复能力</li>
+  <li>Service-Center 支持在多基础设施中部署</li>
+  <li>优化前端界面UI，提供更多功能及提升易用性</li>
+</ul>
+
+<h2 id="下载地址">下载地址：</h2>
+
+<p>Java-chassis:</p>
+
+<p><a href="http://apache.org/dyn/closer.cgi/incubator/servicecomb/incubator-servicecomb-java-chassis/1.0.0/">http://apache.org/dyn/closer.cgi/incubator/servicecomb/incubator-servicecomb-java-chassis/1.0.0/</a></p>
+
+<p>Service-Center:</p>
+
+<p><a href="http://apache.org/dyn/closer.cgi/incubator/servicecomb/incubator-servicecomb-service-center/1.0.0/">http://apache.org/dyn/closer.cgi/incubator/servicecomb/incubator-servicecomb-service-center/1.0.0/</a></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fa fa-fw fa-tags" aria-hidden="true"></i> 标签: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#1-0-0" class="page__taxonomy-item" rel="tag">1.0.0</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#release" class="page__taxonomy-item" rel="tag">release</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#%E9%87%8C%E7%A8%8B%E7%A2%91" class="page__taxonomy-item" rel="tag">里程碑</a>
+    
+    </span>
+  </p>
+
+
+
+
+
+        
+          
+            
+              <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> 最新的:</strong> <time datetime="2018-06-14">2018年6月14日</time></p>
+            
+          
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">分享</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?via=ServiceComb&text=[里程碑]Apache ServiceComb 1.0.0版本正式发布 /cn/docs/release-note-1-0-0" class="btn btn--twitter" title="分享 Twitter"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=/cn/docs/release-note-1-0-0" class="btn btn--facebook" title="分享 Facebook"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://plus.google.com/share?url=/cn/docs/release-note-1-0-0" class="btn btn--google-plus" title="分享 Google Plus"><i class="fa fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=/cn/docs/release-note-1-0-0" class="btn btn--linkedin" title="分享 LinkedIn"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/cn/docs/consul-servicemesh" class="pagination--pager" title="Consul Service Mesh实战
+">向前</a>
+    
+    
+      <a href="/docs/release-note-1-0-0/" class="pagination--pager" title="[Milestone] Apache ServiceComb (incubating) Release Version 1.0.0
+">向后</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+      <div class="page__comments">
+  
+  
+    <section id="static-comments">
+      
+        <!-- Start static comments -->
+        <div class="js-comments">
+          
+        </div>
+        <!-- End static comments -->
+
+        <!-- Start new comment form -->
+        <h4 class="page__comments-title">留下评论</h4>
+        <p class="small">您的电子邮箱地址并不会被展示。请填写标记为必须的字段。 <span class="required">*</span></p>
+        <form id="new_comment" class="page__comments-form js-form form" method="post" action="https://api.staticman.net/v1/entry/apache/incubator-servicecomb-website/master">
+          <div class="form__spinner">
+            <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
+            <span class="sr-only">正在加载...</span>
+          </div>
+
+          <fieldset>
+            <label for="comment-form-message">评论 <small class="required">*</small></label>
+            <textarea type="text" rows="3" id="comment-form-message" name="fields[message]" tabindex="1"></textarea>
+            <div class="small help-block"><a href="https://daringfireball.net/projects/markdown/">Markdown语法已支持。</a></div>
+          </fieldset>
+          <fieldset>
+            <label for="comment-form-name">姓名 <small class="required">*</small></label>
+            <input type="text" id="comment-form-name" name="fields[name]" tabindex="2" />
+          </fieldset>
+          <fieldset>
+            <label for="comment-form-email">电子邮箱 <small class="required">*</small></label>
+            <input type="email" id="comment-form-email" name="fields[email]" tabindex="3" />
+          </fieldset>
+          <fieldset>
+            <label for="comment-form-url">网站（可选）</label>
+            <input type="url" id="comment-form-url" name="fields[url]" tabindex="4"/>
+          </fieldset>
+          <fieldset class="hidden" style="display: none;">
+            <input type="hidden" name="options[slug]" value="1.0.0-release-note">
+            <label for="comment-form-location">Not used. Leave blank if you are a human.</label>
+            <input type="text" id="comment-form-location" name="fields[hidden]" autocomplete="off"/>
+          </fieldset>
+          <!-- Start comment form alert messaging -->
+          <p class="hidden js-notice">
+            <strong class="js-notice-text"></strong>
+          </p>
+          <!-- End comment form alert messaging -->
+          <fieldset>
+            <button type="submit" id="comment-form-submit" tabindex="5" class="btn btn--large">提交评论</button>
+          </fieldset>
+        </form>
+        <!-- End new comment form -->
+      
+    </section>
+  
+</div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">猜您还喜欢</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/cn/docs/playing-on-the-open-source-community-with-Apache-ServiceComb-GDUT/" rel="permalink">与Apache ServiceComb一起玩开源-广工站 (PPT Download)
+</a>
+      
+    </h2>
+    <p class="archive__item-excerpt" itemprop="description">与Apache ServiceComb一起玩开源-广工站 (PPT Download)
+</p>
+    
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+
+
+  少于 1 分钟 阅读
+
+</p>
+    
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/cn/docs/servicecomb-service-center-client/" rel="permalink">使用ServiceComb客户端轻松调用ServiceCenter
+</a>
+      
+    </h2>
+    <p class="archive__item-excerpt" itemprop="description">使用ServiceComb客户端轻松调用ServiceCenter
+</p>
+    
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+
+
+  2 分钟 阅读
+
+</p>
+    
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/cn/docs/playing-on-the-open-source-community-with-Apache-ServiceComb-BUPT/" rel="permalink">与Apache ServiceComb一起玩开源-北邮站 (PPT Download)
+</a>
+      
+    </h2>
+    <p class="archive__item-excerpt" itemprop="description">与Apache ServiceComb一起玩开源-北邮站 (PPT Download)
+</p>
+    
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+
+
+  少于 1 分钟 阅读
+
+</p>
+    
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/docs/servicecomb-accept-newcapec-institute-code-donation/" rel="permalink">Apache ServiceComb Accept Code Donation From NewCapec Institute
+</a>
+      
+    </h2>
+    <p class="archive__item-excerpt" itemprop="description">Apache ServiceComb Accept Code Donation From NewCapec Institute
+</p>
+    
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+
+
+  少于 1 分钟 阅读
+
+</p>
+    
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+</div>
+
+
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div align="center" style="margin: 0 0;">
+    <ins class="adsbygoogle"
+         style="display:block; border-bottom: initial;"
+         data-ad-client="ca-pub-7328585512091257"
+         data-ad-slot="3049671934"
+         data-ad-format="auto"></ins>
+    </div>
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+
+        <div class="container">
+  <div class="row justify-content-md-center">
+    
+    <div class="col">
+      <ul>
+        <p class="header">活动</p>
+        <a class="acevent" data-format="square" data-mode="dark" data-event="random"></a>
+      </ul>
+    </div>
+    <div class="col">
+      <ul>
+        <p class="header">资源</p>
+        <li><a href="/cn/docs/getting-started/">入门指南</a></li>
+        <li><a href="/cn/docs/users/">用户指南</a></li>
+        <li><a href="/cn/slides/">资料</a></li>
+        <li><a href="/cn/users/faq/">常见问题</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <ul>
+        <p class="header">ASF</p>
+        <li><a href="http://www.apache.org">基金会</a></li>
+        <li><a href="http://www.apache.org/licenses/">许可证</a></li>
+        <li><a href="http://www.apache.org/events/current-event">活动</a></li>
+        <li><a href="http://www.apache.org/foundation/sponsorship.html">赞助</a></li>
+        <li><a href="http://www.apache.org/foundation/thanks.html">鸣谢</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <ul>
+        <p class="header">贡献</p>
+        <li><a href="http://issues.apache.org/jira/browse/SCB">报告本网页问题</a></li>
+        <li><a href="https://github.com/apache/servicecomb-website/edit/master/_posts/cn/2018-8-13-1.0.0-release-note.md">在Github上编辑此页</a></li>
+        <li><a href="/cn/developers/submit-codes/">代码提交指南</a></li>
+        <li><a href="/cn/security">安全</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <ul class="social-icons">
+        <p class="header">社区</p>
+        <li>
+            <a href="mailto:dev-subscribe@servicecomb.incubator.apache.org" rel="nofollow"><span class="mail">邮件列表</span></a>
+        </li>
+        <li>
+            <a href="https://github.com/apache?q=ServiceComb" target="_blank"><span class="github">Github</span></a>
+        </li>
+        <li>
+            <a href="https://twitter.com/ServiceComb" target="_blank"><span class="twitter">Twitter</span></a>
+        </li>
+        <li>
+            <a href="/feed.xml" target="_blank"><span class="rss">Feed</span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="page__footer-bottom">
+  <div>&copy; 2022 Apache ServiceComb. 技术来自于 <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+  <div>All other marks mentioned may be trademarks or registered trademarks of their respective owners.</div>
+</div>
+
+      </footer>
+    </div>
+
+    <script src="/assets/js/main.min.js"></script>
+
+
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-101622733-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+
+
+  
+  <script>
+    (function ($) {
+    var $comments = $('.js-comments');
+
+    $('#new_comment').submit(function () {
+      var form = this;
+
+      $(form).addClass('disabled');
+      $('#comment-form-submit').html('<i class="fa fa-spinner fa-spin fa-fw"></i> 正在加载...');
+
+      $.ajax({
+        type: $(this).attr('method'),
+        url: $(this).attr('action'),
+        data: $(this).serialize(),
+        contentType: 'application/x-www-form-urlencoded',
+        success: function (data) {
+          $('#comment-form-submit').html('已提交');
+          $('.page__comments-form .js-notice').removeClass('notice--danger');
+          $('.page__comments-form .js-notice').addClass('notice--success');
+          showAlert('感谢您的评论！被批准后它会立即在此站点展示。');
+        },
+        error: function (err) {
+          console.log(err);
+          $('#comment-form-submit').html('提交评论');
+          $('.page__comments-form .js-notice').removeClass('notice--success');
+          $('.page__comments-form .js-notice').addClass('notice--danger');
+          showAlert('很抱歉，您的提交存在错误。请确保所有必填字段都已填写正确，然后再试一次。');
+          $(form).removeClass('disabled');
+        }
+      });
+
+      return false;
+    });
+
+    function showAlert(message) {
+      $('.page__comments-form .js-notice').removeClass('hidden');
+      $('.page__comments-form .js-notice-text').html(message);
+    }
+  })(jQuery);
+  </script>
+
+
+
+
+
+
+
+  </body>
+</html>

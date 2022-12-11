@@ -1,0 +1,883 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.4.1 by Michael Rose
+  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Apache ServiceComb (incubating) Meetup -Shanghai 2018.10.12 - Apache ServiceComb</title>
+
+
+
+
+<meta name="description" content="Apache ServiceComb (incubating) Meetup">
+
+
+
+
+<meta name="author" content="Dean Lee">
+
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="Apache ServiceComb">
+<meta property="og:title" content="Apache ServiceComb (incubating) Meetup -Shanghai 2018.10.12">
+
+
+  <link rel="canonical" href="https://github.com/pages/apache/incubator-servicecomb-website/docs/Apache-ServiceComb-Meetup-2018-Shanghai/">
+  <meta property="og:url" content="https://github.com/pages/apache/incubator-servicecomb-website/docs/Apache-ServiceComb-Meetup-2018-Shanghai/">
+
+
+
+  <meta property="og:description" content="Apache ServiceComb (incubating) Meetup">
+
+
+
+  <meta name="twitter:site" content="@ServiceComb">
+  <meta name="twitter:title" content="Apache ServiceComb (incubating) Meetup -Shanghai 2018.10.12">
+  <meta name="twitter:description" content="Apache ServiceComb (incubating) Meetup">
+  <meta name="twitter:url" content="">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+    <meta name="twitter:creator" content="@Dean Lee">
+  
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2018-09-28T00:00:00+08:00">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Apache ServiceComb",
+      "url" : "https://github.com/pages/apache/incubator-servicecomb-website",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+  <meta name="google-site-verification" content="HvJjNd7vvJ-yjSTHlBiIWEYxp_Hrz-PYEY5Idz9LRcA" />
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Apache ServiceComb Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+<script src="/assets/vendor/prism/prism.js"></script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+<script src="https://www.apachecon.com/event-images/snippet.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/assets/vendor/prism/prism.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+<meta http-equiv="cleartype" content="on">
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+<link href="https://fonts.loli.net/css?family=Roboto:400,500,700|Source+Code+Pro" rel="stylesheet">
+<script src="/assets/js/custom.js"></script>
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead" onmouseleave="$('#childrenShow').css('display', 'none')">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+	      
+          <a class="site-title active" href="/"><img src="https://www.apache.org/img/servicecomb.png"></a>
+	      
+        <ul class="visible-links">
+          
+            
+          
+          
+            
+              <li class="masthead__menu-item" onmouseenter="$('#childrenShow').css('display', 'none')">
+                
+                  <a href="/">Home</a>
+                
+              </li>
+            
+          
+            
+          
+          
+            
+              <li class="masthead__menu-item" onmouseenter="$('#childrenShow').css('display', 'none')">
+                
+                  <a href="/developers/">Projects</a>
+                
+              </li>
+            
+          
+            
+          
+          
+            
+            <li class="def-nav-li" onmouseenter="$('#childrenShow').css('display', 'block')">
+              
+              
+              
+
+              
+                <a href="/docs/users/">Documentation</a>
+              
+
+              <ul id="childrenShow" class="def-children-show-en" onmouseleave="$('#childrenShow').css('display', 'none')">
+                
+                <li><a href="/docs/getting-started/" class="">Getting started</a></li>
+                
+                <li><a href="/docs/users/" class="">Docs</a></li>
+                
+                <li><a href="/slides/" class="">Video</a></li>
+                
+                <li><a href="/faqs/" class="">FAQ</a></li>
+                
+              </ul>
+            </li>
+          
+          
+            
+          
+          
+            
+              <li class="masthead__menu-item" onmouseenter="$('#childrenShow').css('display', 'none')">
+                
+                  <a href="/year-archive/">Blogs</a>
+                
+              </li>
+            
+          
+            
+          
+          
+            
+              <li class="masthead__menu-item" onmouseenter="$('#childrenShow').css('display', 'none')">
+                
+                  <a href="/release/">Downloads</a>
+                
+              </li>
+            
+          
+        </ul>
+        <button><div class="navicon"></div></button>
+        <ul class="hidden-links hidden"></ul>
+        <div class="nav-lang">
+          
+            
+            <a href=/cn/docs/Apache-ServiceComb-Meetup-2018-Shanghai/>中文</a>
+          
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+      
+      <div class="back-to-home"><a href="/">Home</a> > Apache ServiceComb (incubating) Meetup -Shanghai 2018.10.12</div>
+      
+  
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/ServiceComb-logo-3.jpg" class="author__avatar" alt="" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name" itemprop="name"></h3>
+    
+      <p class="author__bio" itemprop="description">
+	    
+        ServiceComb is a microservice framework that provides service registration, discovery, configuration and management utilities.
+	    
+      </p>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+        
+          <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span itemprop="name">China</span>
+        
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="mailto:dev@servicecomb.apache.org">
+            <meta itemprop="email" content="dev@servicecomb.apache.org" />
+            <i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://github.com/search?q=org:apache+ServiceComb&unscoped_q=ServiceComb" itemprop="sameAs">
+            <i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub<br>
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
+      <i class="fa fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Apache ServiceComb (incubating) Meetup -Shanghai 2018.10.12">
+    <meta itemprop="description" content="Apache ServiceComb (incubating) Meetup">
+    <meta itemprop="datePublished" content="September 28, 2018">
+    <meta itemprop="dateModified" content="September 30, 2018">
+
+    <div class="page__inner-wrap">
+      
+        
+          <header>
+            <h1 class="page__title" itemprop="headline">Apache ServiceComb (incubating) Meetup -Shanghai 2018.10.12
+</h1>
+            
+              <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+
+
+  4 minute read
+
+</p>
+            
+          </header>
+        
+      
+
+      <section class="page__content" itemprop="text">
+        <p><strong>Apache ServiceComb Meetup</strong></p>
+
+<p><strong>Meeting Date/time:</strong> Friday, October 12, 2018, 13:30-16:50 PM</p>
+
+<p><strong>Meeting Address:</strong>Shanghai World Expo Exhibition &amp; Convention Center, <strong>Room 416-417</strong></p>
+
+<p><strong>Live Online:</strong> <a href="http://www.itdks.com/eventlist/detail/2709">Link</a></p>
+
+<hr />
+
+<hr />
+<p><strong>《The Apache Way》</strong></p>
+
+<p><strong>Time:</strong>13:30-14:30</p>
+
+<p><strong>Summary:</strong> The Apache Software Foundation (ASF) is the world’s largest open source foundation with more than 300 open source projects, covering big data, cloud computing, servers and web frameworks, build management, content management, IoT, and more areas. Three experts from ASF will talk about the history and development of the ASF, its operation model, and will elaborate on the core ideas of the ASF – The Apache Way.This session will also cover the compliance rules and their meanings for Apache projects. And introduce the Apache Incubator project and its standard procedures. The presenter will talk about how open-source projects can develop into communities through the Apache Incubator project, and how these projects can eventually become top projects.</p>
+
+<p><strong>Speaker:</strong> Roman Shaposhnik is a renowned expert and consultant in corporate OpenSource and Digital Transformation. He serves on Apache Software Foundation board of directors. In the past, Roman played a key role in shaping the Open Source collaboration under the umbrella of Linux Foundation and held leadership roles at Pivotal focusing on big data and application management platforms. His work at Pivotal brought him to the nexus between container technologies, virtualization and unikernel architectures. He is an active member of Apache Software Foundation’s Incubator where he mentors and directly contributes to a wide range of Apache Software Foundation projects.</p>
+
+<p><strong>Speaker:</strong> Justin Mclean, chairman of the Apache IPMC, and an Apache member; more than 20 years of experience in IT software development, areas of expertise include IoT, web-based application development, database design, and open source hardware; has spoken at more than 50 conferences worldwide.</p>
+
+<p><strong>Speaker:</strong> Craig Russell, an Apache member and Apache IPMC member, specialized in database APIs, Java and JavaScript ORM architect for Sun and Oracle. Craig joined the Apache Software Foundation in 2005 and has been the Apache Secretary and ambassador since 2010.</p>
+
+<hr />
+<p><strong>《Latest Roadmap of the Apache ServiceComb(incubating) Community》</strong></p>
+
+<p><strong>Time:</strong> 14:40-15:00</p>
+
+<p><strong>Summary:</strong> This session will introduce the overall evolutionary roadmap of technology for the ServiceComb project and its latest development within the Apache Software Foundation.</p>
+
+<p><strong>Speaker:</strong> Jiang Ning, an Apache member, Huawei microservices expert, open source expert, former principle engineer of Red Hat, has 15 years of experience in developing enterprise-class open source middleware. He is engaged in Apache open-source middleware projects since 2006, including Apache CXF, Apache Camel, and Apache ServiceComb; and in-depth research on microservices architectures, Web Services, Enterprise Integration Patterns, SOA, and OSGi.</p>
+
+<hr />
+<p><strong>《ServiceComb’s Exploration of Service Mesh》</strong></p>
+
+<p><strong>Time:</strong> 15:00-15:20</p>
+
+<p><strong>Summary:</strong> This session will introduce the efforts made by ServiceComb to stay compatible with the Service Mesh ecosystem. The presenter will talk about ServiceComb’s exploration into hybrid deployment and governance of non-intrusive microservices and those based on a traditional architecture.</p>
+
+<p><strong>Speaker :</strong> Tian Xiaoliang is a HUAWEI CLOUD microservices architect and a leader of Service Mesh technology. He was the former monitoring platform architect for SVoice of Samsung, worked on O&amp;M and development solutions for SVoice. He has rich experience in PaaS, O&amp;M and development, and APM; has spoken at multiple open source conferences including LC3 and ArchSummit.</p>
+
+<hr />
+<p><strong>《Practice Sharing: Hybrid Deployment of Service Mesh-based Microservices and Those Based on a Traditional Architecture》</strong></p>
+
+<p><strong>Time:</strong> 15:20-15:40
+<strong>Summary:</strong> Harmonizing non-intrusive microservices (Service Mesh being a shining example) with those based on traditional architectures to enable hybrid deployment and collaborated governance is no easy task. By drawing on practices from his own industry, the presenter will talk about how to use ServiceComb and Mesher to enable hybrid microservices deployment using different architectures, problems encountered, and some solutions to them.</p>
+
+<p><strong>Speaker :</strong> Miao Yanjie is the chief architect in MedSci and has years of experience in cloud computing development for the healthcare industry.</p>
+
+<hr />
+<p><strong>《Journey to Becoming an Apache Committer》</strong></p>
+
+<p><strong>Time:</strong> 15:50-16:10</p>
+
+<p><strong>Summary:</strong> As a new PMC (Project Management Committee) member and committer to ServiceComb, the presenter will talk about his own experience participating in the ServiceComb project, lessons learned and achievements made.</p>
+
+<p><strong>Speaker:</strong> Feng Zheng, a software engineer, joined Red Hat Software in 2009. He is specialized in transaction manager; and is one of the core developers for Narayan and Blacktie projects. He worked on implementation of the distributed transaction part of Apache ServiceComb since 2017; optimized exception and timeout test scenarios by using tools like Byteman. He has in-depth research on distributed transaction processing and transaction processing in microservice environments.</p>
+
+<hr />
+<p><strong>《Hands-on Experience with Fast Microservices Programming》</strong></p>
+
+<p><strong>Time:</strong> 16:10-16:50</p>
+
+<p><strong>Summary:</strong> The presenter will demonstrate how to use ServiceComb Java Chassis and Mesher of Service Mesh to quickly program microservices applications, and how to quickly deploy them by using Kubernetes. Audience can gain some hands-on experiences at the same time.</p>
+
+<p><strong>Speaker:</strong> Ju Zhen, a Huawei software engineer and Go language developer, is specialized in cloud computing, container technology, and DevOps. He is one of the core developers of container image services for HUAWEI CLOUD, and is mainly engaged in Huawei open source project development. He is a co-translator of The Docker Book and is an advocate of technologies like O&amp;M automation, microservices, and Service Mesh. He gave speeches at Container Days 2017 and KubeCon 2017.</p>
+
+<hr />
+<p><strong>Please checkout ServiceComb Gitter if you are interesting about visiting the booth of ServiceComb during the Meetup</strong>
+<strong><a href="https://gitter.im/ServiceCombUsers/Lobby">ServiceComb Gitter</a></strong></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fa fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#meetup" class="page__taxonomy-item" rel="tag">Meetup</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#microservice" class="page__taxonomy-item" rel="tag">microservice</a>
+    
+    </span>
+  </p>
+
+
+
+
+
+        
+          
+            
+              <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Updated:</strong> <time datetime="2018-09-30">September 30, 2018</time></p>
+            
+          
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?via=ServiceComb&text=Apache ServiceComb (incubating) Meetup -Shanghai 2018.10.12 /docs/Apache-ServiceComb-Meetup-2018-Shanghai/" class="btn btn--twitter" title="Share on Twitter"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=/docs/Apache-ServiceComb-Meetup-2018-Shanghai/" class="btn btn--facebook" title="Share on Facebook"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://plus.google.com/share?url=/docs/Apache-ServiceComb-Meetup-2018-Shanghai/" class="btn btn--google-plus" title="Share on Google Plus"><i class="fa fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=/docs/Apache-ServiceComb-Meetup-2018-Shanghai/" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/cn/docs/loadtest-saga-with-kubernetes" class="pagination--pager" title="使用Kubernetes对Saga进行压力测试
+">Previous</a>
+    
+    
+      <a href="/cn/docs/Apache-ServiceComb-Meetup-2018-Shanghai/" class="pagination--pager" title="Apache ServiceComb (incubating) Meetup -上海 2018.10.12
+">Next</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+      <div class="page__comments">
+  
+  
+    <section id="static-comments">
+      
+        <!-- Start static comments -->
+        <div class="js-comments">
+          
+        </div>
+        <!-- End static comments -->
+
+        <!-- Start new comment form -->
+        <h4 class="page__comments-title">Leave a Comment</h4>
+        <p class="small">Your email address will not be published. Required fields are marked <span class="required">*</span></p>
+        <form id="new_comment" class="page__comments-form js-form form" method="post" action="https://api.staticman.net/v1/entry/apache/incubator-servicecomb-website/master">
+          <div class="form__spinner">
+            <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
+            <span class="sr-only">Loading...</span>
+          </div>
+
+          <fieldset>
+            <label for="comment-form-message">Comment <small class="required">*</small></label>
+            <textarea type="text" rows="3" id="comment-form-message" name="fields[message]" tabindex="1"></textarea>
+            <div class="small help-block"><a href="https://daringfireball.net/projects/markdown/">Markdown is supported.</a></div>
+          </fieldset>
+          <fieldset>
+            <label for="comment-form-name">Name <small class="required">*</small></label>
+            <input type="text" id="comment-form-name" name="fields[name]" tabindex="2" />
+          </fieldset>
+          <fieldset>
+            <label for="comment-form-email">Email address <small class="required">*</small></label>
+            <input type="email" id="comment-form-email" name="fields[email]" tabindex="3" />
+          </fieldset>
+          <fieldset>
+            <label for="comment-form-url">Website (optional)</label>
+            <input type="url" id="comment-form-url" name="fields[url]" tabindex="4"/>
+          </fieldset>
+          <fieldset class="hidden" style="display: none;">
+            <input type="hidden" name="options[slug]" value="Apache-ServiceComb-Meetup-2018-Shanghai">
+            <label for="comment-form-location">Not used. Leave blank if you are a human.</label>
+            <input type="text" id="comment-form-location" name="fields[hidden]" autocomplete="off"/>
+          </fieldset>
+          <!-- Start comment form alert messaging -->
+          <p class="hidden js-notice">
+            <strong class="js-notice-text"></strong>
+          </p>
+          <!-- End comment form alert messaging -->
+          <fieldset>
+            <button type="submit" id="comment-form-submit" tabindex="5" class="btn btn--large">Submit Comment</button>
+          </fieldset>
+        </form>
+        <!-- End new comment form -->
+      
+    </section>
+  
+</div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You May Also Enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/cn/docs/playing-on-the-open-source-community-with-Apache-ServiceComb-GDUT/" rel="permalink">与Apache ServiceComb一起玩开源-广工站 (PPT Download)
+</a>
+      
+    </h2>
+    <p class="archive__item-excerpt" itemprop="description">与Apache ServiceComb一起玩开源-广工站 (PPT Download)
+</p>
+    
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/cn/docs/servicecomb-service-center-client/" rel="permalink">使用ServiceComb客户端轻松调用ServiceCenter
+</a>
+      
+    </h2>
+    <p class="archive__item-excerpt" itemprop="description">使用ServiceComb客户端轻松调用ServiceCenter
+</p>
+    
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+
+</p>
+    
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/cn/docs/playing-on-the-open-source-community-with-Apache-ServiceComb-BUPT/" rel="permalink">与Apache ServiceComb一起玩开源-北邮站 (PPT Download)
+</a>
+      
+    </h2>
+    <p class="archive__item-excerpt" itemprop="description">与Apache ServiceComb一起玩开源-北邮站 (PPT Download)
+</p>
+    
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/docs/servicecomb-accept-newcapec-institute-code-donation/" rel="permalink">Apache ServiceComb Accept Code Donation From NewCapec Institute
+</a>
+      
+    </h2>
+    <p class="archive__item-excerpt" itemprop="description">Apache ServiceComb Accept Code Donation From NewCapec Institute
+</p>
+    
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+
+</p>
+    
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+</div>
+
+
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div align="center" style="margin: 0 0;">
+    <ins class="adsbygoogle"
+         style="display:block; border-bottom: initial;"
+         data-ad-client="ca-pub-7328585512091257"
+         data-ad-slot="3049671934"
+         data-ad-format="auto"></ins>
+    </div>
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+
+        <div class="container">
+  <div class="row justify-content-md-center">
+    
+    <div class="col">
+      <ul>
+        <p class="header">Events</p>
+        <a class="acevent" data-format="square" data-mode="dark" data-event="random"></a>
+      </ul>
+    </div>
+    <div class="col">
+      <ul>
+        <p class="header">Resources</p>
+        <li><a href="/docs/getting-started/">Getting started</a></li>
+        <li><a href="/docs/users/">User Guide</a></li>
+        <li><a href="/slides/">Slides</a></li>
+        <li><a href="/users/faq/">Common Questions</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <ul>
+        <p class="header">ASF</p>
+        <li><a href="http://www.apache.org">Foundation</a></li>
+        <li><a href="http://www.apache.org/licenses/">License</a></li>
+        <li><a href="http://www.apache.org/events/current-event">Events</a></li>
+        <li><a href="http://www.apache.org/foundation/sponsorship.html">Sponsorship</a></li>
+        <li><a href="http://www.apache.org/foundation/thanks.html">Thanks</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <ul>
+        <p class="header">Contribute</p>
+        <li><a href="http://issues.apache.org/jira/browse/SCB">Report a Doc Issue</a></li>
+        <li><a href="https://github.com/apache/servicecomb-website/edit/master/_posts/2018-09-28-Apache-ServiceComb-Meetup-2018-Shanghai.md">Edit This Page on Github</a></li>
+        <li><a href="/developers/submit-codes/">Code Submit Guide</a></li>
+        <li><a href="/security">Security</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <ul class="social-icons">
+        <p class="header">Community</p>
+        <li>
+            <a href="mailto:dev-subscribe@servicecomb.incubator.apache.org" rel="nofollow"><span class="mail">Mailing List</span></a>
+        </li>
+        <li>
+            <a href="https://github.com/apache?q=ServiceComb" target="_blank"><span class="github">Github</span></a>
+        </li>
+        <li>
+            <a href="https://twitter.com/ServiceComb" target="_blank"><span class="twitter">Twitter</span></a>
+        </li>
+        <li>
+            <a href="/feed.xml" target="_blank"><span class="rss">Feed</span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="page__footer-bottom">
+  <div>&copy; 2022 Apache ServiceComb. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+  <div>All other marks mentioned may be trademarks or registered trademarks of their respective owners.</div>
+</div>
+
+      </footer>
+    </div>
+
+    <script src="/assets/js/main.min.js"></script>
+
+
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-101622733-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+
+
+  
+  <script>
+    (function ($) {
+    var $comments = $('.js-comments');
+
+    $('#new_comment').submit(function () {
+      var form = this;
+
+      $(form).addClass('disabled');
+      $('#comment-form-submit').html('<i class="fa fa-spinner fa-spin fa-fw"></i> Loading...');
+
+      $.ajax({
+        type: $(this).attr('method'),
+        url: $(this).attr('action'),
+        data: $(this).serialize(),
+        contentType: 'application/x-www-form-urlencoded',
+        success: function (data) {
+          $('#comment-form-submit').html('Submitted');
+          $('.page__comments-form .js-notice').removeClass('notice--danger');
+          $('.page__comments-form .js-notice').addClass('notice--success');
+          showAlert('Thanks for your comment! It will show on the site once it has been approved.');
+        },
+        error: function (err) {
+          console.log(err);
+          $('#comment-form-submit').html('Submit Comment');
+          $('.page__comments-form .js-notice').removeClass('notice--success');
+          $('.page__comments-form .js-notice').addClass('notice--danger');
+          showAlert('Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again.');
+          $(form).removeClass('disabled');
+        }
+      });
+
+      return false;
+    });
+
+    function showAlert(message) {
+      $('.page__comments-form .js-notice').removeClass('hidden');
+      $('.page__comments-form .js-notice-text').html(message);
+    }
+  })(jQuery);
+  </script>
+
+
+
+
+
+
+
+  </body>
+</html>

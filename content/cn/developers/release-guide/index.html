@@ -1,0 +1,952 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.4.1 by Michael Rose
+  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="cn" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>ServiceComb发版指南 - Apache ServiceComb</title>
+
+
+
+
+<meta name="description" content="ServiceComb发版指南 介绍如何在Apache发版">
+
+
+
+
+<meta name="author" content="Asif Siddiqui">
+
+<meta property="og:locale" content="cn">
+<meta property="og:site_name" content="Apache ServiceComb">
+<meta property="og:title" content="ServiceComb发版指南">
+
+
+  <link rel="canonical" href="https://github.com/pages/apache/incubator-servicecomb-website/cn/developers/release-guide/">
+  <meta property="og:url" content="https://github.com/pages/apache/incubator-servicecomb-website/cn/developers/release-guide/">
+
+
+
+  <meta property="og:description" content="ServiceComb发版指南 介绍如何在Apache发版">
+
+
+
+  <meta name="twitter:site" content="@ServiceComb">
+  <meta name="twitter:title" content="ServiceComb发版指南">
+  <meta name="twitter:description" content="ServiceComb发版指南 介绍如何在Apache发版">
+  <meta name="twitter:url" content="">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+    <meta name="twitter:creator" content="@asifdxtreme">
+  
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Apache ServiceComb",
+      "url" : "https://github.com/pages/apache/incubator-servicecomb-website",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+  <meta name="google-site-verification" content="HvJjNd7vvJ-yjSTHlBiIWEYxp_Hrz-PYEY5Idz9LRcA" />
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Apache ServiceComb Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+<script src="/assets/vendor/prism/prism.js"></script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+<script src="https://www.apachecon.com/event-images/snippet.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/assets/vendor/prism/prism.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+<meta http-equiv="cleartype" content="on">
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+<link href="https://fonts.loli.net/css?family=Roboto:400,500,700|Source+Code+Pro" rel="stylesheet">
+<script src="/assets/js/custom.js"></script>
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead" onmouseleave="$('#childrenShow').css('display', 'none')">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+	      
+          <a class="site-title active" href="/cn"><img src="https://www.apache.org/img/servicecomb.png"></a>
+	      
+        <ul class="visible-links">
+          
+            
+          
+          
+            
+              <li class="masthead__menu-item" onmouseenter="$('#childrenShow').css('display', 'none')">
+                
+                  <a href="/cn/">首页</a>
+                
+              </li>
+            
+          
+            
+          
+          
+            
+              <li class="masthead__menu-item" onmouseenter="$('#childrenShow').css('display', 'none')">
+                
+                  <a href="/cn/developers/">项目</a>
+                
+              </li>
+            
+          
+            
+          
+          
+            
+            <li class="def-nav-li" onmouseenter="$('#childrenShow').css('display', 'block')">
+              
+              
+              
+
+              
+                <a href="/cn/docs/users/">文档</a>
+              
+
+              <ul id="childrenShow" class="def-children-show-cn" onmouseleave="$('#childrenShow').css('display', 'none')">
+                
+                <li><a href="/cn/docs/getting-started/" class="">入门指南</a></li>
+                
+                <li><a href="/cn/docs/users/" class="">用户手册</a></li>
+                
+                <li><a href="/cn/slides/" class="">大咖视频</a></li>
+                
+                <li><a href="/cn/faqs/" class="">常见问题</a></li>
+                
+              </ul>
+            </li>
+          
+          
+            
+          
+          
+            
+              <li class="masthead__menu-item" onmouseenter="$('#childrenShow').css('display', 'none')">
+                
+                  <a href="/cn/year-archive/">博文</a>
+                
+              </li>
+            
+          
+            
+          
+          
+            
+              <li class="masthead__menu-item" onmouseenter="$('#childrenShow').css('display', 'none')">
+                
+                  <a class="active" href="/cn/release/">下载</a>
+                
+              </li>
+            
+          
+        </ul>
+        <button><div class="navicon"></div></button>
+        <ul class="hidden-links hidden"></ul>
+        <div class="nav-lang">
+          
+            
+            
+            <a href=/developers/release-guide/>English</a>
+          
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+      
+      <div class="back-to-home"><a href="/cn/">首页</a> > ServiceComb发版指南</div>
+      
+  
+  
+    
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">切换菜单</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          
+          
+
+          <a href="/cn/developers/"><span class="nav__sub-title nav__sub-title-with-url">项目列表</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/cn/developers/team/"><span class="nav__sub-title nav__sub-title-with-url">开发团队</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/cn/developers/contributing"><span class="nav__sub-title nav__sub-title-with-url">如何做贡献</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/cn/developers/becomming-a-commiter"><span class="nav__sub-title nav__sub-title-with-url">成为Committer</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/cn/developers/setup-develop-environment/"><span class="nav__sub-title nav__sub-title-with-url">开发环境准备</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/cn/developers/submit-issues/"><span class="nav__sub-title nav__sub-title-with-url">发现问题</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/cn/developers/submit-codes/"><span class="nav__sub-title nav__sub-title-with-url">代码提交指南</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/cn/developers/subscribe-mail-list/"><span class="nav__sub-title nav__sub-title-with-url">邮件列表订阅指南</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/cn/developers/use-jira/"><span class="nav__sub-title nav__sub-title-with-url">JIRA使用方法</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/cn/developers/use-gitter/"><span class="nav__sub-title nav__sub-title-with-url">Gitter 使用方法</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/cn/developers/setup-committer-rights/"><span class="nav__sub-title nav__sub-title-with-url">设置代码仓库写权限</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/cn/developers/release-guide/"><span class="nav__sub-title nav__sub-title-with-url">Servicecomb发版指南</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/cn/developers/release-validation-guide/"><span class="nav__sub-title nav__sub-title-with-url">ServiceComb发版验证指南</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/cn/developers/sonarcloud-how-to/"><span class="nav__sub-title nav__sub-title-with-url">SonarCloud集成指南</span></a>
+        
+
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="ServiceComb发版指南">
+    <meta itemprop="description" content="ServiceComb发版指南 介绍如何在Apache发版">
+    
+    <meta itemprop="dateModified" content="May 08, 2018">
+
+    <div class="page__inner-wrap">
+      
+        
+          <header>
+            <h1 class="page__title" itemprop="headline">ServiceComb发版指南
+</h1>
+            
+          </header>
+        
+      
+
+      <section class="page__content" itemprop="text">
+        <aside class="sidebar__right">
+<nav class="toc">
+    <!-- <header><h4 class="nav__title"><i class="fa fa-file-text"></i> 在本页上</h4></header> -->
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#前期准备" id="markdown-toc-前期准备">前期准备</a></li>
+  <li><a href="#配置maven" id="markdown-toc-配置maven">配置Maven</a></li>
+  <li><a href="#发行service-center" id="markdown-toc-发行service-center">发行Service-Center</a></li>
+  <li><a href="#发行java-chassis" id="markdown-toc-发行java-chassis">发行Java-Chassis</a></li>
+  <li><a href="#发行pack" id="markdown-toc-发行pack">发行Pack</a></li>
+</ul>
+
+  </nav>
+</aside>
+
+<p>本文向大家介绍如何在Apache上进行ServiceComb项目发版.</p>
+
+<h2 id="前期准备">前期准备</h2>
+
+<ol>
+  <li>项目CI应该是正常的（绿色的）。</li>
+  <li>确定发布版本号。</li>
+  <li>因为发版的过程中需要使用<a href="https://www.apache.org/dev/openpgp.html#generate-key">密钥</a>对<a href="https://www.apache.org/dev/release-signing">发布版本进行签名</a>，请确保密钥中的公钥已经<a href="https://www.apache.org/dev/openpgp.html#publish-in-web-space">发布</a>到公钥服务器。</li>
+  <li>熟悉maven版本发行相关的设置。</li>
+</ol>
+
+<h2 id="配置maven">配置Maven</h2>
+<p>ServiceComb Java-Chassis和Saga使用Maven进行版本发布，我们需要在发布前对Maven进行一些配置。</p>
+
+<p>在使用Maven把发行包发布到仓库之前，参考了Maven项目的设定<a href="http://maven.apache.org/developers/committer-settings.html">指南</a>。请特别注意<a href="http://maven.apache.org/guides/mini/guide-encryption.html">加密密码</a>。</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;settings&gt;
+  ...
+  &lt;servers&gt;
+    &lt;!-- Per http://maven.apache.org/developers/committer-settings.html --&gt;
+
+    &lt;!-- To stage a release of some part of Maven --&gt;
+    &lt;server&gt;
+      &lt;id&gt;apache.releases.https&lt;/id&gt;
+      &lt;username&gt; &lt;!-- YOUR APACHE LDAP USERNAME --&gt; &lt;/username&gt;
+      &lt;password&gt; &lt;!-- YOUR APACHE LDAP PASSWORD --&gt; &lt;/password&gt;
+    &lt;/server&gt;
+  &lt;/servers&gt;
+  ...
+  &lt;profiles&gt;
+    &lt;profile&gt;
+      &lt;id&gt;apache-release&lt;/id&gt;
+      &lt;properties&gt;
+        &lt;gpg.useagent&gt;false&lt;/gpg.useagent&gt;
+        &lt;gpg.passphrase&gt;&lt;!-- YOUR GPG PASSPHRASE --&gt;&lt;/gpg.passphrase&gt;
+        &lt;test&gt;false&lt;/test&gt;
+      &lt;/properties&gt;
+    &lt;/profile&gt;
+  &lt;/profiles&gt;
+...
+&lt;/settings&gt;
+</code></pre></div></div>
+
+<h2 id="发行service-center">发行Service-Center</h2>
+
+<p><strong><em>准备和校验发行包</em></strong></p>
+
+<ol>
+  <li>克隆service-center代码。
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/apache/servicecomb-service-center.git
+cd servicecomb-service-center
+gvt restore
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>在master分支上打上准备发布版本的标签。</p>
+  </li>
+  <li>
+    <p>运行RAT工具，检查所有源文件头都有合法的ASF声明, 请参考<a href="https://github.com/apache/servicecomb-service-center/tree/master/docs/release">该文档</a>。</p>
+  </li>
+  <li>
+    <p>运行<code class="language-plaintext highlighter-rouge">make_release.sh</code>脚本，请参考<a href="https://github.com/apache/servicecomb-service-center/tree/master/scripts/release">该文档</a>。</p>
+  </li>
+  <li>
+    <p>上一步将会在根目录下生成发行包。</p>
+  </li>
+  <li>
+    <p>在Linux与Windows环境下运行前端与service-center。</p>
+  </li>
+  <li>
+    <p>进行<a href="https://github.com/apache/servicecomb-service-center/tree/master/integration">集成测试</a>。</p>
+  </li>
+  <li>
+    <p>如果以上全部测试都通过了，将发行包分发给同事在不同机器上进行验证。</p>
+  </li>
+  <li>将标签推送到主仓库。</li>
+</ol>
+
+<p><strong><em>给发行包签名</em></strong></p>
+
+<ol>
+  <li>
+    <p>从Github下载要发行版本<a href="https://github.com/apache/servicecomb-service-center/tags">标签</a>的源码包。</p>
+  </li>
+  <li>
+    <p>生成Linux发行包，Windows发行包和源码包的签名和校验和。</p>
+  </li>
+  <li>
+    <p>上传发行版到<a href="https://dist.apache.org/repos/dist/dev/servicecomb/servicecomb-service-center/">Apache发行开发仓库</a>.</p>
+  </li>
+  <li>
+    <p>从SVN下载发行包，验证签名和校验。</p>
+  </li>
+</ol>
+
+<p><strong><em>PMC批准</em></strong></p>
+
+<ol>
+  <li>
+    <p>发送投票邮件至 <strong><em>dev@servicecomb.apache.org</em></strong>， 发起PMC批准.</p>
+  </li>
+  <li>
+    <p>等待72小时，或者获得3票+1并且没有-1。如果有-1票，修正问题并从<strong><em>第1步</em></strong>重新开始。</p>
+  </li>
+  <li>
+    <p>将投票结果发布到dev@servicecomb.apache.org。</p>
+  </li>
+</ol>
+
+<p><strong><em>通告</em></strong></p>
+
+<ol>
+  <li>
+    <p>上传发行包至<a href="https://dist.apache.org/repos/dist/release/servicecomb/servicecomb-service-center/">Apache发行仓库</a>。</p>
+  </li>
+  <li>
+    <p>等待24小时，让所有镜像同步。</p>
+  </li>
+  <li>
+    <p>将<a href="https://dist.apache.org/repos/dist/dev">dev</a>的文件移动到<a href="https://dist.apache.org/repos/dist/release">release</a>目录中，同时确认已经被存档,同时更新网站上相关链接。</p>
+  </li>
+  <li>
+    <p>上传发行页面至ServiceComb网站。</p>
+  </li>
+  <li>
+    <p>发送发行通告邮件到dev@servicecomb.apache.org， announce@apache.org。</p>
+  </li>
+</ol>
+
+<h2 id="发行java-chassis">发行Java-Chassis</h2>
+
+<p>发布版本前，首先确定该版本所有的 apache issues 都已经关闭， 并且
+登录 <a href="https://issues.apache.org/jira/projects/SCB">apache issue 网站</a>， 点击发布， 生成该版本的 release notes。</p>
+
+<ul>
+  <li>
+    <p><strong><em>准备待发布版本</em></strong></p>
+
+    <p>clone 需要发布版本的分支到开发环境（比如 master）， 修改版本号， 并提交代码到仓库。
+假设当前版本为 <code class="language-plaintext highlighter-rouge">2.0.0-SNAPSHOT</code>，发布版本为 <code class="language-plaintext highlighter-rouge">2.0.0</code>。 执行：</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  ```
+  mvn versions:set -DgenerateBackupPoms=false -DnewVersion=2.0.0
+  ```
+</code></pre></div>    </div>
+
+    <p>然后执行：</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  ```
+  mvn clean install -Pit
+  ```
+</code></pre></div>    </div>
+
+    <p>如果编译成功，可以提交PR，代码检视通过后合入仓库。</p>
+  </li>
+  <li>
+    <p><strong><em>进行软件包发布</em></strong></p>
+
+    <p>需要准备 Linux 开发环境，并确保网络能够往 maven 中央库上传文件。</p>
+  </li>
+</ul>
+
+<ol>
+  <li>
+    <p>如果 <code class="language-plaintext highlighter-rouge">~/.gnupg</code> 中没有GPG密钥文件，则将GPG密钥文件拷贝至 <code class="language-plaintext highlighter-rouge">~/.gnupg</code> 文件夹。 文件列表如下：</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ```
+ gpg.conf
+ pubring.gpg
+ random_seed
+ secring.gpg
+ trustdb.gpg
+ ```
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>更新 <code class="language-plaintext highlighter-rouge">~/.m2/settings.xml</code> 文件中的GPG密码。</p>
+  </li>
+  <li>
+    <p>更新 <code class="language-plaintext highlighter-rouge">~/.m2/settings.xml</code> 文件中的Apache帐户用户名和密码。</p>
+  </li>
+  <li>
+    <p>克隆java-chassis代码</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ```
+ git clone https://github.com/apache/servicecomb-java-chassis.git
+ ```
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>运行以下命令。运行过程中可能需要输入 gpg 密码，</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ```
+ mvn clean deploy -DskipTests -Prelease -Pdistribution
+ ```
+</code></pre></div>    </div>
+
+    <p>如果提示 gpg 失败， 尝试执行下面的命令后，重新执行上面的命令：</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ```
+ export GPG_TTY=$(tty)
+ ```
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>如果执行失败，需要解决问题。 并参考第7步<code class="language-plaintext highlighter-rouge">drop</code>临时仓库，重新执行第5步。</p>
+  </li>
+  <li>
+    <p>如果步骤5命令执行成功，则所有的jar包都已经成功上传至maven临时仓库。<br />
+ 使用apache帐号登录到 <a href="https://repository.apache.org/">Apache Nexus</a> ，点击 “Staging Repositories”， 搜索 “servicecomb”，
+ 根据时间找到最近的java-chassis相关的记录，close该条记录，得到maven临时仓库的链接，例
+ 如：<code class="language-plaintext highlighter-rouge">https://repository.apache.org/content/repositories/orgapacheservicecomb-1385</code>。</p>
+  </li>
+  <li>
+    <p>在 servicecomb-java-chassis 的 github 的 release 页面，点击 release， 发布 pre release 版本， 打上 tag 。</p>
+  </li>
+</ol>
+
+<ul>
+  <li><strong><em>给发行包签名</em></strong></li>
+</ul>
+
+<ol>
+  <li>
+    <p>从临时仓库下载二进制包及签名， 例如：</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ```
+ https://repository.apache.org/content/repositories/orgapacheservicecomb-1385/org/apache/servicecomb/apache-servicecomb-java-chassis-distribution/1.2.0/apache-servicecomb-java-chassis-distribution-1.2.0-bin.zip  
+ https://repository.apache.org/content/repositories/orgapacheservicecomb-1385/org/apache/servicecomb/apache-servicecomb-java-chassis-distribution/1.2.0/apache-servicecomb-java-chassis-distribution-1.2.0-bin.zip.asc
+ ``` 
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>从临时仓库下载源码包及签名，例如：</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ```
+ https://repository.apache.org/content/repositories/orgapacheservicecomb-1385/org/apache/servicecomb/apache-servicecomb-java-chassis-distribution/1.2.0/apache-servicecomb-java-chassis-distribution-1.2.0-src.zip
+ https://repository.apache.org/content/repositories/orgapacheservicecomb-1385/org/apache/servicecomb/apache-servicecomb-java-chassis-distribution/1.2.0/apache-servicecomb-java-chassis-distribution-1.2.0-src.zip.asc
+ ```  
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>生成二进制包和源码包的校验和，例如：</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ```
+ sha512sum -b apache-servicecomb-java-chassis-distribution-1.2.0-bin.zip &gt; apache-servicecomb-java-chassis-distribution-1.2.0-bin.zip.sha512  
+ sha512sum -b apache-servicecomb-java-chassis-distribution-1.2.0-src.zip &gt; apache-servicecomb-java-chassis-distribution-1.2.0-src.zip.sha512  
+ ```  
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>将上述步骤相关的文件，上传到 <a href="https://dist.apache.org/repos/dist/dev/servicecomb/servicecomb-java-chassis/">Apache开发仓库</a> 。 SVN命令：</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ```
+ svn co https://dist.apache.org/repos/dist/dev/servicecomb/servicecomb-java-chassis
+ cd serviecomb-java-chassis
+ mkdir -p 1.2.0/rc01
+ cp xxx/* 1.2.0/rc01
+ svn add 1.2.0
+ svn ci 1.2.0
+ ```
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>从SVN下载发行包，验证签名和校验。</p>
+  </li>
+</ol>
+
+<ul>
+  <li><strong><em>PMC批准</em></strong></li>
+</ul>
+
+<ol>
+  <li>
+    <p>发送投票邮件至 <strong><em>dev@servicecomb.apache.org</em></strong>， 发起PMC批准.</p>
+  </li>
+  <li>
+    <p>等待72小时，或者获得3票+1并且没有-1。如果有-1票，修正问题，重新开始版本发布流程（视具体的失败情况，可能
+ 需要重新生成 release notes，删除svn临时文件，删除临时<code class="language-plaintext highlighter-rouge">Staging repositories</code>等）。</p>
+  </li>
+  <li>
+    <p>将投票结果发布到dev@servicecomb.apache.org。</p>
+  </li>
+</ol>
+
+<ul>
+  <li><strong><em>更新文档和通告</em></strong></li>
+</ul>
+
+<ol>
+  <li>
+    <p>在 servicecomb-java-chassis 的 github 的 release 页面，将 pre release 修改为正式 release。完成 release notes书写。</p>
+  </li>
+  <li>
+    <p>将 <a href="https://dist.apache.org/repos/dist/dev">dev</a> 的文件移动到 <a href="https://dist.apache.org/repos/dist/release">release</a> 目录中。</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ```
+ cp dev/servicecomb/servicecomb-java-chassis/2.0.0/* release/servicecomb/servicecomb-java-chassis/2.0.0/
+ cd release/servicecomb/servicecomb-java-chassis/
+ svn add 2.0.0
+ svn ci 2.0.0
+ ```
+</code></pre></div>    </div>
+
+    <p>同时删除 <a href="https://dist.apache.org/repos/dist/dev">dev</a> 的临时内容。</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ```
+ svn rm 1.2.0
+ svn ci .
+ ```
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>使用apache帐号登录到 <a href="https://repository.apache.org/">Apache Nexus</a>，点击 “Staging Repositories” ，搜索 “servicecomb” ，
+ 找到需要发布的 java-chassis 记录，点击 “Release” 。 如果由其他临时 “Staging Repositories” ，可以点击 “Drop” 一并删除。</p>
+  </li>
+  <li>
+    <p>等待24小时，让所有镜像同步。</p>
+  </li>
+  <li>
+    <p>更新官网发布信息。 修改内容可以参考 <a href="https://github.com/apache/servicecomb-website/pull/210">1.3.0 RP</a>
+ 或者 <a href="https://github.com/apache/servicecomb-website/pull/240">2.0.0 RP</a></p>
+  </li>
+  <li>
+    <p>发送发行通告邮件到 <code class="language-plaintext highlighter-rouge">dev@servicecomb.apache.org</code>， <code class="language-plaintext highlighter-rouge">announce@apache.org</code>。</p>
+  </li>
+</ol>
+
+<h2 id="发行pack">发行Pack</h2>
+
+<p>请参考 <a href="/cn/release/pack-release-guide">ServiceComb Pack 发行指南</a></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fa fa-fw fa-tags" aria-hidden="true"></i> 标签: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#%E5%8F%91%E7%89%88" class="page__taxonomy-item" rel="tag">发版</a>
+    
+    </span>
+  </p>
+
+
+
+
+
+        
+      </footer>
+
+      
+
+      
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div align="center" style="margin: 0 0;">
+    <ins class="adsbygoogle"
+         style="display:block; border-bottom: initial;"
+         data-ad-client="ca-pub-7328585512091257"
+         data-ad-slot="3049671934"
+         data-ad-format="auto"></ins>
+    </div>
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+
+        <div class="container">
+  <div class="row justify-content-md-center">
+    
+    <div class="col">
+      <ul>
+        <p class="header">活动</p>
+        <a class="acevent" data-format="square" data-mode="dark" data-event="random"></a>
+      </ul>
+    </div>
+    <div class="col">
+      <ul>
+        <p class="header">资源</p>
+        <li><a href="/cn/docs/getting-started/">入门指南</a></li>
+        <li><a href="/cn/docs/users/">用户指南</a></li>
+        <li><a href="/cn/slides/">资料</a></li>
+        <li><a href="/cn/users/faq/">常见问题</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <ul>
+        <p class="header">ASF</p>
+        <li><a href="http://www.apache.org">基金会</a></li>
+        <li><a href="http://www.apache.org/licenses/">许可证</a></li>
+        <li><a href="http://www.apache.org/events/current-event">活动</a></li>
+        <li><a href="http://www.apache.org/foundation/sponsorship.html">赞助</a></li>
+        <li><a href="http://www.apache.org/foundation/thanks.html">鸣谢</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <ul>
+        <p class="header">贡献</p>
+        <li><a href="http://issues.apache.org/jira/browse/SCB">报告本网页问题</a></li>
+        <li><a href="https://github.com/apache/servicecomb-website/edit/master/_developers/cn/release_guide.md">在Github上编辑此页</a></li>
+        <li><a href="/cn/developers/submit-codes/">代码提交指南</a></li>
+        <li><a href="/cn/security">安全</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <ul class="social-icons">
+        <p class="header">社区</p>
+        <li>
+            <a href="mailto:dev-subscribe@servicecomb.incubator.apache.org" rel="nofollow"><span class="mail">邮件列表</span></a>
+        </li>
+        <li>
+            <a href="https://github.com/apache?q=ServiceComb" target="_blank"><span class="github">Github</span></a>
+        </li>
+        <li>
+            <a href="https://twitter.com/ServiceComb" target="_blank"><span class="twitter">Twitter</span></a>
+        </li>
+        <li>
+            <a href="/feed.xml" target="_blank"><span class="rss">Feed</span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="page__footer-bottom">
+  <div>&copy; 2022 Apache ServiceComb. 技术来自于 <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+  <div>All other marks mentioned may be trademarks or registered trademarks of their respective owners.</div>
+</div>
+
+      </footer>
+    </div>
+
+    <script src="/assets/js/main.min.js"></script>
+
+
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-101622733-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+
+
+  </body>
+</html>

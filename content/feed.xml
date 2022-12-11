@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-10-29T21:25:24+08:00</updated><id>/feed.xml</id><title type="html">Apache ServiceComb</title><subtitle>The homepage of ServiceComb</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;&quot;/assets/images/ServiceComb-logo-3.jpg&quot;, &quot;bio&quot;=&gt;&quot;ServiceComb is a microservice framework that provides service registration, discovery, configuration and management utilities.&quot;, &quot;biocn&quot;=&gt;&quot;ServiceComb提供了一套关于服务注册，服务发现，服务配置以及管理功能的微服务框架&quot;, &quot;location&quot;=&gt;&quot;China&quot;, &quot;locationcn&quot;=&gt;&quot;中国&quot;, &quot;email&quot;=&gt;&quot;dev@servicecomb.apache.org&quot;, &quot;uri&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;codepen&quot;=&gt;nil, &quot;dribbble&quot;=&gt;nil, &quot;flickr&quot;=&gt;nil, &quot;facebook&quot;=&gt;nil, &quot;foursquare&quot;=&gt;nil, &quot;github&quot;=&gt;&quot;ServiceComb&quot;, &quot;google_plus&quot;=&gt;nil, &quot;keybase&quot;=&gt;nil, &quot;instagram&quot;=&gt;nil, &quot;lastfm&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil, &quot;pinterest&quot;=&gt;nil, &quot;soundcloud&quot;=&gt;nil, &quot;stackoverflow&quot;=&gt;nil, &quot;steam&quot;=&gt;nil, &quot;tumblr&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil, &quot;vine&quot;=&gt;nil, &quot;weibo&quot;=&gt;nil, &quot;xing&quot;=&gt;nil, &quot;youtube&quot;=&gt;nil}</name><email>dev@servicecomb.apache.org</email></author><entry xml:lang="cn"><title type="html">与Apache ServiceComb一起玩开源-广工站 (PPT Download)</title><link href="/cn/docs/playing-on-the-open-source-community-with-Apache-ServiceComb-GDUT/" rel="alternate" type="text/html" title="与Apache ServiceComb一起玩开源-广工站 (PPT Download)" /><published>2019-12-11T00:00:00+08:00</published><updated>2019-12-11T10:30:00+08:00</updated><id>/cn/docs/playing-on-the-open-source-community-with-Apache-ServiceComb-GDUT</id><content type="html" xml:base="/cn/docs/playing-on-the-open-source-community-with-Apache-ServiceComb-GDUT/">&lt;p&gt;近日，Apache ServiceComb与广东工业大学计算机院学生会联合举办“与Apache ServiceComb一起玩开源”讲座。Apache ServiceComb PMC成员马彬与华为开源软件架构师郑志鹏，为广工的同学们带来“开源开发者的一天”和“微服务架构及ServiceComb实践”的精彩演讲以及现场教学互动。&lt;/p&gt;
+
+&lt;p&gt;本次讲座得到广东工业大学计算机院学生会同学们的鼎力支持和参与。报名通道开放后，报名人数迅速达到150+，活动放在学校报告厅举办。即便在周日，同学们的热情仍然很高，给广东工业大学的同学们点赞。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/colleges_and_universities/GDUT/meeting.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;主题 1: 《开源开发者的一天》&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/slides/20191211/A_day_of_open_source_developer.pdf&quot;&gt;中文PDF下载&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;来自华为开源软件部的Apache ServiceComb PMC成员马彬为同学们分享了开源软件发展史及基金会介绍、开源开发的一天、如何加入开源社区做贡献以及Apache ServiceComb微服务项目介绍等内容。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/colleges_and_universities/GDUT/mabin.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;主题 2: 《微服务架构及ServiceComb实践》&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/slides/20191211/Microservice_architecture_and_Apache_serviceComb_practice.pdf&quot;&gt;中文PDF下载&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;华为开源软件架构师郑志鹏为同学们普及了微服务的概念和作用，并从基于Apache ServiceComb构建的天气预报Demo出发，现场“庖丁解牛”动手教学，讲解微服务架构、微服务的基本组件、如何做微服务设计以及如何使用Apache ServiceComb的核心能力实现微服务快速开发的精彩内容。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/colleges_and_universities/GDUT/zzp.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;分享结束后的提问交流环节，既有同学们就开源和微服务主题，提出了自己有见解和有深度的问题，讲师积极的给予了回复。也有多个同学表示，愿意开始尝试开源活动或在自己的项目中应用微服务架构，希望寻求进一步支持和帮助的。交流环节，延长了近一个小时才彻底结束。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/colleges_and_universities/GDUT/answer1.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/colleges_and_universities/GDUT/answer2.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;关于Apache ServiceComb 项目&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;ServiceComb Apache软件基金会孵化项目的主体代码由华为云捐赠，致力于帮助企业轻松构建云原生应用及传统企业业务快速微服务化，通过系列解决方案帮助用户快速开发微服务的同时实现对这些微服务应用的高效运维管理。它具有完整的微服务生态栈，无厂商锁定，当前遵循Apache Way进行孵化，已拥有如消费者云、云EI、云安全、云核等华为业务之外的一批非华为商用用户，且社区和开发者也日趋多样化。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;如您对开源开发、微服务感兴趣，欢迎微信扫码添加“ServiceComb小助手”，咱们一起做点有意思的事情&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/QRcode.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;</content><author><name>Zhou Zhongyuan</name></author><category term="microservice" /><category term="Meetup" /><summary type="html">与Apache ServiceComb一起玩开源-广工站 (PPT Download)</summary></entry><entry xml:lang="cn"><title type="html">使用ServiceComb客户端轻松调用ServiceCenter</title><link href="/cn/docs/servicecomb-service-center-client/" rel="alternate" type="text/html" title="使用ServiceComb客户端轻松调用ServiceCenter" /><published>2019-12-09T00:00:00+08:00</published><updated>2019-12-09T14:00:30+08:00</updated><id>/cn/docs/servicecomb-service-center-client</id><content type="html" xml:base="/cn/docs/servicecomb-service-center-client/">&lt;h2 id=&quot;1-问题背景&quot;&gt;1. 问题/背景&lt;/h2&gt;
+&lt;p&gt;在微服务架构中，服务注册中心是必不可少的组件，提供服务注册与管理的能力。目前使用ServiceComb服用中心的java微服务开发者，不仅需要写微服务业务代码，还要写客户端代码去调用ServiceCenter的openAPI。开发者首先需要熟悉ServiceCenter的openAPI文档，然后代码实现http客户端用于发起请求和接收响应，并绑定ServiceCenter配置参数，最后代码实现对服务中心API的调用，才能使用上ServiceCenter。为了简单化开发者使用ServiceCenter，ServiceCenter客户端实现了上述步骤。开发者只需要添加客户端jar包调用API就能轻松使用ServiceCenter，不需要过多关注openAPI文档、不需要写http客户端层代码。使用ServiceComb客户端，开发者可以轻松调用ServiceCenter，更专注于写微服务业务代码。&lt;br /&gt;
+了解更多ServiceComb-Service-Center：&lt;a href=&quot;https://docs.servicecomb.io/service-center/zh_CN/index.html&quot;&gt;https://docs.servicecomb.io/service-center/zh_CN/index.html&lt;/a&gt;&lt;br /&gt;
+了解更多ServiceCenter客户端：&lt;a href=&quot;https://github.com/apache/servicecomb-java-chassis/tree/master/clients/service-center-client&quot;&gt;https://github.com/apache/servicecomb-java-chassis/tree/master/clients/service-center-client&lt;/a&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/images/client/sc-client.jpg&quot; alt=&quot;service-center-client-design&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;2-客户端原理及关键代码解读&quot;&gt;2. 客户端原理及关键代码解读&lt;/h2&gt;
+&lt;p&gt;2.1  基于httpClient设计ServiceCenter客户端&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;客户端发起请求和接收响应。客户端选择httpclient作为底层组件，用于实际发起请求和接收响应，并对请求和响应类进行了封装。代码中get方法对应发起GET请求，调用doRequest方法首先添加服务注册中心信息到封装过的httpRequest请求头部，再基于httpclient组件发起实际的http请求，最后将请求响应结果转化为封装过的httpResponse对象返回。&lt;/p&gt;
+
+    &lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;//make GET request&lt;/span&gt;
+&lt;span class=&quot;nd&quot;&gt;@Override&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HttpResponse&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;HttpRequest&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;throws&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;IOException&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setMethod&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;HttpRequest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;GET&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;doRequest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;......&lt;/span&gt;
+   
+&lt;span class=&quot;c1&quot;&gt;//make http request with httpClient component&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HttpResponse&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;doRequest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;HttpRequest&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;httpRequest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;throws&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;IOException&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;//add cse-serviceregistry-client header to identify client&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;httpRequest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;addHeader&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;HEADER_CONTENT_TYPE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;application/json&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;httpRequest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;addHeader&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;HEADER_USER_AGENT&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;cse-serviceregistry-client/1.0.0&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;globalHeaders&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;globalHeaders&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;forEach&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;httpRequest:&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;addHeader&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+        
+    &lt;span class=&quot;c1&quot;&gt;//make http request&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;apache&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;HttpResponse&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;httpClient&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;execute&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;httpRequest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getRealRequest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;());&lt;/span&gt;
+        
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;statusCode&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getStatusLine&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getStatusCode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;messgae&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getStatusLine&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getReasonPhrase&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;context&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;EntityUtils&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;toString&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getEntity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;HttpResponse&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;statusCode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;messgae&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;客户端支持定制化服务中心配置参数。代码中看到，客户端支持开发者定制服务中心IP，端口，项目名称，租户名称，导入TLSConfig和新增请求头，并通过客户端的Builder方法注入配置。TLSConfig为客户端TLS认证配置类，给客户端导入TLS证书配置，即可开启客户端双向认证模式。&lt;/p&gt;
+
+    &lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;cm&quot;&gt;/**
+   * Customized host, port, projectName, tenantName, TLSConf, headers and any one parameter can be null.
+   */&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;ServiceCenterClient&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;host&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;port&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;projectName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tenantName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;TLSConfig&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tlsConfig&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;nc&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;extraGlobalHeaders&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;nc&quot;&gt;HttpTransport&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;httpTransport&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HttpTransportFactory&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getDefaultHttpTransport&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tlsConfig&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;httpTransport&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;TLSHttpsTransport&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tlsConfig&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;httpTransport&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;addHeaders&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;extraGlobalHeaders&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+          
+      &lt;span class=&quot;c1&quot;&gt;//set configuration parameters&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;httpClient&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ServiceCenterRawClient&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;Builder&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+          &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setHost&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;host&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+          &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setPort&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;port&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+          &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setProjectName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;projectName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+          &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setTenantName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tenantName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+          &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setHttpTransport&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;httpTransport&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;build&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2.2  ServiceCenter客户端核心API&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;服务注册与发现，注册服务和实例到服务注册中心，根据服务ID发现服务实例。registerMicroserviceInstance方法用于注册服务实例，发起httpPOST请求访问服务实例注册URL，并将实例注入到请求body中，返回服务ID字符串; getMicroserviceInstanceList方法用于发现服务的所有实例，根据服务ID，发起httpGET请求访问服务发现URL，返回MicroserviceInstancesResponse对象。
+    &lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;c1&quot;&gt;//service register&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;registerMicroserviceInstance&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;MicroserviceInstance&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;instance&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;serviceId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;try&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;ObjectMapper&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mapper&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ObjectMapper&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;mapper&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;configure&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;SerializationFeature&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;WRAP_ROOT_VALUE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;HttpResponse&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;httpClient&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;postHttpRequest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/registry/microservices/&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;serviceId&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;/instances&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;mapper&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;writeValueAsString&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;instance&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getStatusCode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HttpStatus&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;SC_OK&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getContent&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;OperationException&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
+              &lt;span class=&quot;s&quot;&gt;&quot;register service instance fails, statusCode = &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getStatusCode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;; message = &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;
+                  &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getMessage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+                  &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;; content = &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getContent&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;());&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;catch&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;IOException&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;OperationException&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;&quot;register service instance fails&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+ 	  
+  &lt;span class=&quot;c1&quot;&gt;//service discovery&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;MicroserviceInstancesResponse&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;getMicroserviceInstanceList&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;serviceId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;try&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;nc&quot;&gt;HttpResponse&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;httpClient&lt;/span&gt;
+            &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getHttpRequest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/registry/microservices/&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;serviceId&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;/instances&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getStatusCode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HttpStatus&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;SC_OK&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;nc&quot;&gt;ObjectMapper&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mapper&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ObjectMapper&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+          &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mapper&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;readValue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getContent&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;MicroserviceInstancesResponse&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;OperationException&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
+              &lt;span class=&quot;s&quot;&gt;&quot;get service instances list fails, statusCode = &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getStatusCode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;; message = &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;
+                  &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getMessage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+                  &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;; content = &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getContent&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;());&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;catch&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;IOException&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;OperationException&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;&quot;get service instances list fails&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;      
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;心跳，服务实例发送心跳告知服务中心。代码中发起httpPUT请求中访问心跳URL，并导入HeartbeatsRequest （包含服务ID和实例ID）到请求body中，响应状态码为200表示心跳成功。
+    &lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;c1&quot;&gt;//heartBeats&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sendHeartBeats&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;HeartbeatsRequest&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;heartbeatsRequest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;try&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;nc&quot;&gt;ObjectMapper&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mapper&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ObjectMapper&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+      &lt;span class=&quot;nc&quot;&gt;HttpResponse&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;httpClient&lt;/span&gt;
+          &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;putHttpRequest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/registry/heartbeats&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mapper&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;writeValueAsString&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;heartbeatsRequest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;));&lt;/span&gt;
+  
+      &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getStatusCode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HttpStatus&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;SC_OK&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;no&quot;&gt;LOGGER&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;HEARTBEATS SUCCESS&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;OperationException&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;&quot;heartbeats fails, statusCode = &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getStatusCode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;; message = &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getMessage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+                &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;; content = &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getContent&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;());&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;catch&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;IOException&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;OperationException&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
+          &lt;span class=&quot;s&quot;&gt;&quot;heartbeats fails &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;2.3 更多客户端API介绍，参考客户端说明文档 &lt;a href=&quot;https://github.com/apache/servicecomb-java-chassis/tree/master/clients/service-center-client&quot;&gt;https://github.com/apache/servicecomb-java-chassis/tree/master/clients/service-center-client&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;3-servicecenter客户端实践&quot;&gt;3. ServiceCenter客户端实践&lt;/h2&gt;
+&lt;p&gt;3.1 实践准备&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;启动ServiceComb服务中心：&lt;a href=&quot;http://servicecomb.apache.org/cn/docs/service-center/install/&quot;&gt;http://servicecomb.apache.org/cn/docs/service-center/install/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;下载演示代码：&lt;a href=&quot;https://github.com/zaneChou1/spring-boot-servicecenter&quot;&gt;https://github.com/zaneChou1/spring-boot-servicecenter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;3.2 provider端启动服务，通过客户端注册到ServiceCenter&lt;br /&gt;
+运行provider模块，启动helloServer服务，并调用客户端API创建客户端对象、创建helloServer服务和实例对象、注册服务和实例到servicecomb 服务中心，并保持30s一次心跳，代码实现如下。&lt;/p&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;registerMicroservice&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(){&lt;/span&gt;
+     &lt;span class=&quot;c1&quot;&gt;//new ServiceCenterClient object&lt;/span&gt;
+     &lt;span class=&quot;nc&quot;&gt;ServiceCenterClient&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ServiceCenterClient&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+     
+     &lt;span class=&quot;c1&quot;&gt;//new Microservice object and setting properties and serviceName is necessary&lt;/span&gt;
+     &lt;span class=&quot;nc&quot;&gt;Microservice&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;microservice&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Microservice&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+     &lt;span class=&quot;n&quot;&gt;microservice&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setServiceId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1111&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+     &lt;span class=&quot;n&quot;&gt;microservice&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setServiceName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;HelloServer&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+     &lt;span class=&quot;c1&quot;&gt;//register microservice to service-center&lt;/span&gt;
+     &lt;span class=&quot;n&quot;&gt;sc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;registerMicroservice&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;microservice&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+     
+     &lt;span class=&quot;c1&quot;&gt;//new MicroserviceInstance object and bind server IP and port&lt;/span&gt;
+     &lt;span class=&quot;nc&quot;&gt;MicroserviceInstance&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;instance&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;MicroserviceInstance&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+     &lt;span class=&quot;nc&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;endPoints&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ArrayList&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;();&lt;/span&gt;
+     &lt;span class=&quot;n&quot;&gt;endPoints&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;rest://127.0.0.1:8080/&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+     &lt;span class=&quot;n&quot;&gt;instance&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setEndpoints&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;endPoints&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+     &lt;span class=&quot;c1&quot;&gt;//setting instance hostName, instanceId and hostName is necessary&lt;/span&gt;
+     &lt;span class=&quot;n&quot;&gt;instance&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setHostName&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;test&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+     &lt;span class=&quot;n&quot;&gt;instance&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;setInstanceId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;2222&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+     &lt;span class=&quot;c1&quot;&gt;//register microservice instance to service-center&lt;/span&gt;
+     &lt;span class=&quot;n&quot;&gt;sc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;registerMicroserviceInstance&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;instance&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;microservice&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getServiceId&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;());&lt;/span&gt;
+     
+     &lt;span class=&quot;c1&quot;&gt;//send a heartbeat every 30s&lt;/span&gt;
+     &lt;span class=&quot;nc&quot;&gt;HeartbeatsRequest&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;heartbeatsRequest&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HeartbeatsRequest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1111&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;2222&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+     &lt;span class=&quot;k&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
+       &lt;span class=&quot;n&quot;&gt;sc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;sendHeartBeats&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;heartbeatsRequest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+       &lt;span class=&quot;k&quot;&gt;try&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+         &lt;span class=&quot;nc&quot;&gt;Thread&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;sleep&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;30000&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+       &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;catch&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;InterruptedException&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+         &lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;printStackTrace&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+       &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+     &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;查看service-center的UI显示如下，helloServer服务注册到服务中心成功，且有一个服务实例test。 &lt;br /&gt;
+&lt;img src=&quot;/assets/images/client/sc-sample-UI.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+访问provider服务监听的8080端口，返回“Hello Spring-Boot-ServiceCenter !”。&lt;br /&gt;
+&lt;img src=&quot;/assets/images/client/sc-sample-provider.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;3.3 consumer端通过客户端发现服务实例，发起服务调用&lt;br /&gt;
+运行consumer模块，启动consumer服务，调用客户端API新建客户端对象、发现helloServer服务实例、获取服务监听的IP和端口，最后调用provider端helloServer服务返回结果。&lt;/p&gt;
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;//find service instance&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;ServiceCenterClient&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ServiceCenterClient&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;MicroserviceInstancesResponse&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;instances&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getMicroserviceInstanceList&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;1111&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//get IP and port that service is listening on&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;URI&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;endpointURIBuilder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;URIBuilder&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;instances&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getInstances&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getEndpoints&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)).&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;build&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;port&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;endpointURIBuilder&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getPort&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;host&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;endpointURIBuilder&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getHost&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;//call service&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;RestTemplate&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;restTemplate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;RestTemplate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;ResponseEntity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;restTemplate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getForEntity&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;host&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;:&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;port&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getBody&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;访问consumer端监听的8081端口，返回helloServer的响应结果“Hello Spring-Boot-ServiceCenter !”，consumer端通过ServiceComb服务注册中心调用provider端服务成功。  &lt;br /&gt;
+&lt;img src=&quot;/assets/images/client/sc-sample-consumer.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>Zhou Zhongyuan</name></author><category term="ServiceCenter" /><category term="Client" /><summary type="html">使用ServiceComb客户端轻松调用ServiceCenter</summary></entry><entry xml:lang="cn"><title type="html">与Apache ServiceComb一起玩开源-北邮站 (PPT Download)</title><link href="/cn/docs/playing-on-the-open-source-community-with-Apache-ServiceComb-BUPT/" rel="alternate" type="text/html" title="与Apache ServiceComb一起玩开源-北邮站 (PPT Download)" /><published>2019-11-20T00:00:00+08:00</published><updated>2019-11-21T15:18:43+08:00</updated><id>/cn/docs/playing-on-the-open-source-community-with-Apache-ServiceComb-BUPT</id><content type="html" xml:base="/cn/docs/playing-on-the-open-source-community-with-Apache-ServiceComb-BUPT/">&lt;p&gt;近日，Apache ServiceComb与北京邮电大学“乐群学堂”联合举办“与Apache ServiceComb一起玩开源”讲座。Apache ServiceComb PMC成员马彬与华为开源软件架构师郑志鹏，为北邮的同学们带来“ServiceComb带你走进开源”和“使用ServiceComb快速开发高并发高可用电商系统实践使用微服务架构快速开发万级TPS高可用电商系统”的精彩演讲以及现场教学互动。&lt;/p&gt;
+
+&lt;p&gt;本次讲座得到北邮计算机学院闫博、徐飒等老师以及广大同学的鼎力支持和参与。报名通道开放伊始，原定200个的参会名额即被定满，经过老师们积极协调临时增加了部分名额，但是由于场地资源有限，这次没有报上名的同学，期待下次再会面啦&amp;gt;_&amp;lt;~~&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/colleges_and_universities/BUPT/1.signup.jpg&quot; alt=&quot;1&quot; /&gt; &lt;img src=&quot;/assets/images/colleges_and_universities/BUPT/2.signup.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;讲座开展前期，同学们积极响应和回馈社区，ServiceComb通过建立社区交流群组，与同学互动交流，提前分享动手实践指南以及解答疑问。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/colleges_and_universities/BUPT/3.answer.jpg&quot; alt=&quot;1&quot; /&gt; &lt;img src=&quot;/assets/images/colleges_and_universities/BUPT/4.answer.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;讲座定于19:00开始，18:10会场前同学已经在有序地排队入场，给北邮的同学点赞&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/colleges_and_universities/BUPT/5.enter.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;为“乐群学堂”的师生们点赞，非常贴心地在走廊安排了临时加座~~~&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/colleges_and_universities/BUPT/6.meeting.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;主题 1: 《Apache ServiceComb带你走进开源开发》&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/slides/20191120/Apache_ServiceComb.pdf&quot;&gt;中文PDF下载&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;来自华为开源软件部的Apache ServiceComb PMC成员马彬为同学们分享了开源软件的演进历史、开源基金会介绍、开源社区以及基于首个Apache ServiceComb微服务项目的开源开发实战内容。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/colleges_and_universities/BUPT/7.meeting.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;主题 2: 《使用ServiceComb快速开发高并发高可用电商系统实践》&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/slides/20191120/2.Apache_ServiceComb_builds_online_store.pdf&quot;&gt;中文PDF下载&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;华为开源软件架构师郑志鹏为同学们普及了微服务的概念和作用，并从基于Apache ServiceComb构建的万级TPS高可用电商系统案例出发，现场“庖丁解牛”动手教学，讲解如何做微服务设计、如何合理拆分微服务、如何分库分表，以及如何使用Apache ServiceComb的核心能力实现微服务快速开发、部署、上线等精彩内容。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/colleges_and_universities/BUPT/8.meeting.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;会后，同学们踊跃发言，与讲师就开源、微服务、个人职业发展等问题进行了开放式的交流，收获满满~&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/colleges_and_universities/BUPT/9.meeting.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/colleges_and_universities/BUPT/10.meeting.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;关于Apache ServiceComb 项目&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;ServiceComb Apache软件基金会孵化项目的主体代码由华为云捐赠，致力于帮助企业轻松构建云原生应用及传统企业业务快速微服务化，通过系列解决方案帮助用户快速开发微服务的同时实现对这些微服务应用的高效运维管理。它具有完整的微服务生态栈，无厂商锁定，当前遵循Apache Way进行孵化，已拥有如消费者云、云EI、云安全、云核等华为业务之外的一批非华为商用用户，且社区和开发者也日趋多样化。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;如您对开源开发、微服务感兴趣，欢迎微信扫码添加“ServiceComb小助手”，咱们一起做点有意思的事情&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/QRcode.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;</content><author><name>Chinx</name></author><category term="microservice" /><category term="Meetup" /><summary type="html">与Apache ServiceComb一起玩开源-北邮站 (PPT Download)</summary></entry><entry xml:lang="en"><title type="html">Apache ServiceComb Accept Code Donation From NewCapec Institute</title><link href="/docs/servicecomb-accept-newcapec-institute-code-donation/" rel="alternate" type="text/html" title="Apache ServiceComb Accept Code Donation From NewCapec Institute" /><published>2019-11-07T00:00:00+08:00</published><updated>2019-11-07T09:24:43+08:00</updated><id>/docs/servicecomb-accept-newcapec-institute-code-donation</id><content type="html" xml:base="/docs/servicecomb-accept-newcapec-institute-code-donation/">&lt;p&gt;&lt;a href=&quot;https://github.com/apache/servicecomb-toolkit&quot;&gt;ServiceComb Toolkit&lt;/a&gt; recently recieved a code donation(&lt;a href=&quot;https://github.com/NewCapec-Institute/oas-validator&quot;&gt;oas-validator&lt;/a&gt;) from &lt;a href=&quot;https://github.com/orgs/NewCapec-Institute/dashboard&quot;&gt;NewCapec Institute&lt;/a&gt;, oas-validator provides OpenAPI V3 style and compatiblity check functionalities。Related links：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lists.apache.org/thread.html/062cf6e67add1061aad3b106543842a8ac95959da8cd45bf2f88d597@%3Cdev.servicecomb.apache.org%3E&quot;&gt;Donation acceptance vote&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://incubator.apache.org/ip-clearance/servicecomb-oas-validator.html&quot;&gt;IP Clearance Status&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/apache/servicecomb-toolkit/pull/40&quot;&gt;Code import PR&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ServiceComb community will complete the integration work as soon as possible, provide more helpful functionalities to developers.&lt;/p&gt;</content><author><name>Qian Jia</name><email>chanjarster@gmail.com</email><uri>https://github.com/chanjarster</uri></author><category term="microservice" /><summary type="html">Apache ServiceComb Accept Code Donation From NewCapec Institute</summary></entry><entry xml:lang="cn"><title type="html">Apache ServiceComb社区接受新开普软件研究院的代码捐赠</title><link href="/cn/docs/servicecomb-accept-newcapec-institute-code-donation/" rel="alternate" type="text/html" title="Apache ServiceComb社区接受新开普软件研究院的代码捐赠" /><published>2019-10-29T00:00:00+08:00</published><updated>2019-10-29T10:24:43+08:00</updated><id>/cn/docs/servicecomb-accept-newcapec-institute-code-donation</id><content type="html" xml:base="/cn/docs/servicecomb-accept-newcapec-institute-code-donation/">&lt;p&gt;&lt;a href=&quot;https://github.com/apache/servicecomb-toolkit&quot;&gt;ServiceComb Toolkit&lt;/a&gt;项目收到来自&lt;a href=&quot;https://github.com/orgs/NewCapec-Institute/dashboard&quot;&gt;新开普软件研究院&lt;/a&gt;捐赠的&lt;a href=&quot;https://github.com/NewCapec-Institute/oas-validator&quot;&gt;OAS Validator&lt;/a&gt;，该工具提供OpenAPI V3合规性检查和兼容性校验等能力。相关链接：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lists.apache.org/thread.html/062cf6e67add1061aad3b106543842a8ac95959da8cd45bf2f88d597@%3Cdev.servicecomb.apache.org%3E&quot;&gt;社区接受捐赠投票&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://incubator.apache.org/ip-clearance/servicecomb-oas-validator.html&quot;&gt;IP Clearance Status&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/apache/servicecomb-toolkit/pull/40&quot;&gt;代码导入PR&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;后续社区将尽快完成整合工作，给广大开发者提供更多帮助。&lt;/p&gt;</content><author><name>Qian Jia</name><email>chanjarster@gmail.com</email><uri>https://github.com/chanjarster</uri></author><category term="微服务" /><summary type="html">Apache Servicecomb社区接受新开普软件研究院的代码捐赠</summary></entry><entry xml:lang="cn"><title type="html">使用OAS Validator帮助你规范OpenAPI Spec文档</title><link href="/cn/docs/use-oas-validator-help-standardize-oas-spec/" rel="alternate" type="text/html" title="使用OAS Validator帮助你规范OpenAPI Spec文档" /><published>2019-10-23T00:00:00+08:00</published><updated>2019-10-23T12:37:43+08:00</updated><id>/cn/docs/use-oas-validator-help-standardize-oas-spec</id><content type="html" xml:base="/cn/docs/use-oas-validator-help-standardize-oas-spec/">&lt;h2 id=&quot;使用oas-validator规范你的openapi-spec文档&quot;&gt;使用OAS Validator规范你的OpenAPI Spec文档&lt;/h2&gt;
+
+&lt;p&gt;当前主流的开发RESTful API的做法有两种：Code First和Contract First。Code First指先写代码，然后生成Contract，而Contract First则是先写Contract再写代码实现。&lt;/p&gt;
+
+&lt;p&gt;两种做法各有利弊，Code First可以让开发人员先写接口实现，然后利用工具反向生成Contract，优点是快速开发，并能保证接口实现与Contract保证一致，缺点是Contract太过易变容易导致下游应用故障。Contract First则可以让Contract的变动受控，保证下游应用的稳定性，缺点是需要人工来保证接口实现与Contact的一致性，具有一定难度。&lt;/p&gt;
+
+&lt;p&gt;对于如何规范管理Contract，新开普软件研究院开源的&lt;a href=&quot;https://github.com/NewCapec-Institute/oas-validator&quot;&gt;OAS Validator[1]&lt;/a&gt;提供了一些思路，下面简单介绍。&lt;/p&gt;
+
+&lt;h3 id=&quot;合规性校验&quot;&gt;合规性校验&lt;/h3&gt;
+
+&lt;p&gt;OAS Validator支持对使用&lt;a href=&quot;https://github.com/OAI/OpenAPI-Specification&quot;&gt;OpenAPI V3[2]&lt;/a&gt;编写的Contract文档做合规性校验（也可称之为风格校验）。&lt;/p&gt;
+
+&lt;p&gt;在一个微服务架构的系统中，提供RESTful API的组件可能会有很多个，并且由不同开发人员/团队开发，那么在使用这些接口的时候有一个很自然的需求就是希望这些接口（或接口文档）的风格是一致的。OAS Validator的合规性校验做的就是这部分工作。下面举例说明怎么使用合规性校验功能：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;到 https://github.com/NewCapec-Institute/oas-validator clone下代码&lt;/li&gt;
+  &lt;li&gt;然后 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mvn clean install&lt;/code&gt;打包&lt;/li&gt;
+  &lt;li&gt;到&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;oas-validator-web/target&lt;/code&gt;目录下执行&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;java -jar oas-validator-web-exec.jar&lt;/code&gt;启动OAS Validator Web&lt;/li&gt;
+  &lt;li&gt;访问 http://localhost:8080，进入合规性校验功能&lt;/li&gt;
+  &lt;li&gt;把 &lt;a href=&quot;https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v3.0/petstore.yaml&quot;&gt;petstore.yaml&lt;/a&gt; 内容贴到文本框中然后点击校验得到结果：&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-txt&quot;&gt;$.tags : 至少提供一个
+$.openapi : 必须&amp;gt;=3.0.2
+$.components.schemas.'Pet'.title : 必须提供
+$.components.schemas.'Pet'.properties.'id'.title : 必须提供
+$.components.schemas.'Pet'.properties.'name'.title : 必须提供
+$.components.schemas.'Pet'.properties.'tag'.title : 必须提供
+$.components.schemas.'Error'.title : 必须提供
+$.components.schemas.'Error'.properties.'code'.title : 必须提供
+$.components.schemas.'Error'.properties.'message'.title : 必须提供
+$.info.description : 必须提供
+$.paths./pets.get.tags[0] : 不在$.tags所定义的范围内
+$.paths./pets.get.responses.200.headers.'x-next' : 必须为upper hyphen case
+$.paths./pets.post.tags[0] : 不在$.tags所定义的范围内
+$.paths./pets/{petId}.get.tags[0] : 不在$.tags所定义的范围内
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;下面是功能截图：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2019-10-23-use-oas-validator-help-standardize-oas-spec/oas-validator-1.png&quot; alt=&quot;图1 合规性校验&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;下面举例解释检查报告的意思：&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$.components.schemas.'Pet'.title : 必须提供&lt;/code&gt;，前面一段是&lt;a href=&quot;https://github.com/json-path/JsonPath&quot;&gt;JsonPath[3]&lt;/a&gt;，用来描述出问题的元素/属性的位置，“必须提供”则的意思是没有填写该属性。如下图：&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2019-10-23-use-oas-validator-help-standardize-oas-spec/oas-validator-2.png&quot; alt=&quot;图2 合规性校验示例&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;title&lt;/code&gt;是一个文档性字段，没有它虽然不影响接口的语义，但是对于下游应用的开发者来说没有它会造成理解上的困难，因此在这里我们把它设定为必填。&lt;/p&gt;
+
+&lt;p&gt;再来看这一条报告 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$.paths./pets.get.responses.200.headers.'x-next' : 必须为upper hyphen case&lt;/code&gt;，同样前面是JsonPath，告诉你该属性应该为Upper Hyphen Case，正确的写法应该是&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;X-Next&lt;/code&gt;。和&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;title&lt;/code&gt;属性一样Header的大小写不是一个技术问题，但是统一的大小写风格能够让下游应用的开发人员更舒适，从而有更少的Bug。&lt;/p&gt;
+
+&lt;h3 id=&quot;兼容性校验&quot;&gt;兼容性校验&lt;/h3&gt;
+
+&lt;p&gt;不管你是采用Code First还是Contract First，Contract的变动不可避免，那么如何保证变化后的Contract能够对下游应用向下兼容就成了不可回避的问题。这个问题的具体描述就是根据V1.0 Contract开发的下游应用是否依然能够与根据V1.1 Contract实现的接口正确交互。&lt;/p&gt;
+
+&lt;p&gt;OAS Validator提供了这种兼容性校验，当然同样只支持OpenAPI V3文档。下面举例说明如何使用这一功能：&lt;/p&gt;
+
+&lt;p&gt;我们先提供一个v1.0的OAS Spec：&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;openapi&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;3.0.0&quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1.0&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Swagger Petstore&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;paths&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;/pets/{petId}&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;operationId&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;showPetById&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;pets&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;parameters&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;petId&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;path&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;required&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;schema&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;string&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;responses&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;200'&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Expected response to a valid request&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;application/json&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+              &lt;span class=&quot;na&quot;&gt;schema&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+                &lt;span class=&quot;s&quot;&gt;$ref&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;#/components/schemas/Pet&quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;components&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;schemas&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;Pet&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;object&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;required&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;id&lt;/span&gt;
+        &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;name&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;properties&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;integer&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;int64&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;string&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;再写一个v1.1的OAS Spec，添加了一个query参数&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;name&lt;/code&gt;：&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;openapi&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;3.0.0&quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1.1&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Swagger Petstore&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;paths&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;/pets/{petId}&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;operationId&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;showPetById&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;tags&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;pets&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;parameters&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;petId&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;path&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;required&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;schema&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;string&lt;/span&gt;
+        &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;name&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;query&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;required&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;schema&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;string&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;responses&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;200'&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Expected response to a valid request&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+            &lt;span class=&quot;s&quot;&gt;application/json&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+              &lt;span class=&quot;na&quot;&gt;schema&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+                &lt;span class=&quot;s&quot;&gt;$ref&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;#/components/schemas/Pet&quot;&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;components&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;schemas&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;Pet&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;object&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;required&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;id&lt;/span&gt;
+        &lt;span class=&quot;pi&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;name&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;properties&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;integer&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;int64&lt;/span&gt;
+        &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;string&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;然后同样打开OAS Validator Web，进入“兼容性校验”功能，在左侧贴上v1.0在右侧贴上v1.1，点击校验得到结果：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-txt&quot;&gt;$.paths./pets/{petId}.get.parameters[1].required : [name=name,in=query]:仅允许新增required=false的parameter
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;这个报告的意思是新增的query参数&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;name&lt;/code&gt;是必填的，这种做法不向下兼容。仔细想想是不是的确如此？&lt;/p&gt;
+
+&lt;h3 id=&quot;总结&quot;&gt;总结&lt;/h3&gt;
+
+&lt;p&gt;关于OAS Validator的详细文档可见Github。需要注意的是，目前校验规则还不能配置，但是在代码层面提供了接口供扩展，你可以根据自己的需求写一个自己的合规性校验器。&lt;/p&gt;
+
+&lt;p&gt;同时OAS Validator正在请求捐赠到&lt;a href=&quot;https://github.com/apache/servicecomb-toolkit&quot;&gt;Servicecomb Toolkit[4]&lt;/a&gt;项目，流程结束后会尽快将其整合到Servicecomb Toolkit中希望能够为广大开发者带来帮助。&lt;/p&gt;
+
+&lt;p&gt;最后，欢迎开发者朋友们加入ServiceComb社区，一起做些有意思的事情。&lt;a href=&quot;http://servicecomb.incubator.apache.org/cn/docs/join_the_community/&quot;&gt;加入社区方法[5]&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;参考资料&quot;&gt;参考资料&lt;/h3&gt;
+
+&lt;p&gt;[1] OAS Validator https://github.com/NewCapec-Institute/oas-validator&lt;/p&gt;
+
+&lt;p&gt;[2] OpenAPI V3 https://github.com/OAI/OpenAPI-Specification&lt;/p&gt;
+
+&lt;p&gt;[3] JsonPath https://github.com/json-path/JsonPath&lt;/p&gt;
+
+&lt;p&gt;[4] Servicecomb Toolkit https://github.com/apache/servicecomb-toolkit&lt;/p&gt;
+
+&lt;p&gt;[5] 加入Servicecomb社区  http://servicecomb.incubator.apache.org/cn/docs/join_the_community/&lt;/p&gt;</content><author><name>Qian Jia</name><email>chanjarster@gmail.com</email><uri>https://github.com/chanjarster</uri></author><category term="微服务" /><summary type="html">本文将介绍如何规范你的OpenAPI Spec文档</summary></entry><entry xml:lang="en"><title type="html">Apache ServiceComb Meetup -Shanghai 2019.09.20 Report (PPT Download)</title><link href="/docs/Apache-ServiceComb-Meetup-2019-Shanghai-Report/" rel="alternate" type="text/html" title="Apache ServiceComb Meetup -Shanghai 2019.09.20 Report (PPT Download)" /><published>2019-09-20T00:00:00+08:00</published><updated>2019-09-23T17:18:43+08:00</updated><id>/docs/Apache-ServiceComb-Meetup-2019-Shanghai-Report</id><content type="html" xml:base="/docs/Apache-ServiceComb-Meetup-2019-Shanghai-Report/">&lt;p&gt;On September 20, 2019, at the Shanghai World Expo Center in China, the Apache ServiceComb community held microservice Co-Located event at the HUAWEI CONNECT 2019, that concluded successfully.&lt;/p&gt;
+
+&lt;p&gt;The event invited the chairman of the Apache Foundation, the chairman of the Apache Incubator Project Management Committee, Apache Member, Apache Committer, and Huawei Cloud PaaS team architect. They shared the “Apache Explained”, “The Apache Incubator”, “ServiceComb Incubating Journey”, “Apache ServiceComb-Innovative Microservices”, “HUAWEI CLOUD Microservice Tool Improves Development Efficiency”, etc. Many micro-service technologies and experience. ServiceComb community has also released a series of innovative new projects to assist user solve pain points of microservice.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Session 1: The Apache Way&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The Apache Software Foundation is the world’s largest open source foundation and currently has more than 300 open source projects covering big data, cloud computing, server and web frameworks, build management, content management, and the Internet of Things. Foundation members introduced the Apache Software Foundation, open source community governance principles, and the operating mechanism of the Apache incubator, and shared the Apache project’s successful incubation experience with Huawei-funded project Apache ServiceComb.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/slides/20190920/EN/The_Apache_Way_En.pdf&quot;&gt;PDF Download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/hc2019/apache.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Apache Explained&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Craig Russell, Chairman of the ASF, Apache Software Foundation:&lt;/strong&gt; A detailed introduction to the history and current state of the Apache Foundation and its core principles.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/hc2019/introduction.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Apache Incubator&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Justin Mclean, Chairman of the Apache IPMC, Apache Software Foundation:&lt;/strong&gt;  Explains the operating mechanism of the Apache incubator and the features of the Apache protocol, and the release process for the Apache project.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/hc2019/process.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ServiceComb Incubating Journey&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Willem Jiang, Huawei Open Source Expert, ASF Member:&lt;/strong&gt; Shared the practical experience of Huawei’s donated Apache ServiceComb successful incubation, and gave its own summary and suggestions on how to better develop the open source community.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/hc2019/incubation.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Session 2: Innovative Microservices for More Efficient Development&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The Apache ServiceComb community has listened carefully to the pain points encountered by users implementing the microservices architecture. The first half of this topic will share these pain points and incubate projects to solve some pain points. I hope to discuss with users how to solve the problems in micro-service practice. The second half of this topic will introduce the micro-service tool innovation practices that work hand-in-hand with users.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/hc2019/servicecomb.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Apache ServiceComb-Innovative Microservices&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/slides/20190920/EN/Apache_ServiceComb-Innovative_Microservices.pdf&quot;&gt;PDF Download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ma Bin, Huawei Open Source Architect, Apache Committer:&lt;/strong&gt; Interpret the innovative project architecture, roadmap and scenario cases launched by the ServiceComb community for user pain points, including: multi-language operating environment, micro-service contract tools, heterogeneous communication in service centers, distributed configuration centers, micro-service authentication; The convening order calls for more interested fans to contribute to the open source community.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/hc2019/innovative.jpg&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;HUAWEI CLOUD Microservice Tool Improves Development Efficiency&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/slides/20190920/EN/HUAWEI_CLOUD_Microservice_Tool_Improves_Development_Efficiency.pdf&quot;&gt;PDF Download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Wang Qijun, Huawei Cloud PaaS Architect:&lt;/strong&gt; Based on the practice of ServiceComb, Huawei Cloud Micro Service shared the micro-service splitting tools and contract management tools, which are the two developers/users with the highest attention.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/hc2019/efficiency.jpg&quot; alt=&quot;4&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;About the Apache ServiceComb&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;Apache ServiceComb, the main code of the Apache Software Foundation Incubation Project, donated by Huawei Cloud, is dedicated to helping enterprises easily build cloud native applications and traditional enterprise business rapid micro-services, helping users quickly develop micro-services through a series of solutions to achieve these Efficient operation and maintenance management of microservice applications. It has a complete micro-service ecological stack, no vendor lock-in, currently incubating with Apache Way, and has a number of non-Huawei commercial users outside of Huawei’s business such as consumer cloud, cloud EI, cloud security, cloud core, and community. And developers are also increasingly diverse.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;more questions, welcome to scan the QR code or WeChat to add “ServiceComb Assistant&lt;/strong&gt;
+&lt;img src=&quot;/assets/images/QRcode.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;</content><author><name>Mabin</name></author><category term="microservice" /><category term="Meetup" /><summary type="html">Apache ServiceComb Meetup -Shanghai 2019.09.20 Report (PPT)</summary></entry><entry xml:lang="cn"><title type="html">Apache ServiceComb Meetup -Shanghai 2019.09.20 Report (PPT Download)</title><link href="/cn/docs/Apache-ServiceComb-Meetup-2019-Shanghai-Report/" rel="alternate" type="text/html" title="Apache ServiceComb Meetup -Shanghai 2019.09.20 Report (PPT Download)" /><published>2019-09-20T00:00:00+08:00</published><updated>2019-09-23T17:18:43+08:00</updated><id>/cn/docs/Apache-ServiceComb-Meetup-2019-Shanghai-Report</id><content type="html" xml:base="/cn/docs/Apache-ServiceComb-Meetup-2019-Shanghai-Report/">&lt;p&gt;北京时间2019年09月20日，Apache ServiceComb社区在中国上海世博中心举办的华为全链接大会组织了微服务同场活动 Apache ServiceComb Meetup，并圆满落下帷幕。&lt;/p&gt;
+
+&lt;p&gt;本次活动邀请了Apache基金会主席、Apache孵化器项目管理委员会主席、Apache Member、Apache Committer、华为云PaaS团队架构师，携手为大家分享了Apache基金会介绍、Apache 孵化器的运作、ServiceComb的Apache孵化之路分享、Apache ServiceComb：微服务创新项目解读、华为云微服务工具解放开发者等诸多微服务技术及经验，ServiceComb社区也重磅发布了一系列解决用户应用微服务化痛点的创新新品。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Session 1: 《Apache软件基金会开源开发详解》&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Apache软件基金会是全球最大的开源基金会，目前拥有300多个开源项目，涵盖大数据、云计算、服务器和Web框架、构建管理、内容管理、物联网等众多领域。基金会成员介绍了Apache软件基金会，开源社区治理原则，以及Apache孵化器的运作机制，并以华为捐赠的Apache ServiceComb孵化经历，分享Apache项目的孵化成功经验。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/slides/20190920/The_Apache_Way_En.pdf&quot;&gt;中文PDF下载&lt;/a&gt;  &lt;a href=&quot;/assets/slides/20190920/EN/The_Apache_Way_En.pdf&quot;&gt;英文PDF下载&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/hc2019/apache.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;《Apache基金会介绍》&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Craig Russell, Apache基金会主席：&lt;/strong&gt; 详细的介绍的Apache基金会的历史和现状及核心原则。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/hc2019/introduction.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Justin Mclean, Apache孵化器项目管理委员会主席：&lt;/strong&gt; 详解了Apache孵化器的运作机制以及Apache协议的特点，Apache项目的发布流程。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;《Apache 孵化器的运作》&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/hc2019/process.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;姜宁，华为开源软件部技术专家，Apache软件基金会会员：&lt;/strong&gt; 分享了华为捐赠的Apache ServiceComb成功孵化的实战经验，并对如何更好的发展开源社区给出了自己的总结和建议。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;《ServiceComb的Apache孵化之路》&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/hc2019/incubation.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Session 2: 《庖丁解牛： 微服务创新实践解放开发者》&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Apache ServiceComb社区认真的听取了用户实施微服务架构中遇到的痛点。本主题前半部分将和大家分享这些获取到的痛点和为解决部分痛点而孵化项目，期望与用户一起思考如何去摆平微服务化实践中的难题。本主题后半部分将介绍与用户携手实践出真知的微服务化工具创新实践。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/hc2019/servicecomb.jpg&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;《Apache ServiceComb：微服务创新项目解读》&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/slides/20190920/Apache_ServiceComb-Innovative_Microservices.pdf&quot;&gt;中文PDF下载&lt;/a&gt;  &lt;a href=&quot;/assets/slides/20190920/EN/Apache_ServiceComb-Innovative_Microservices.pdf&quot;&gt;英文PDF下载&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;马彬，华为开源软件部架构师，Apache Committer：&lt;/strong&gt; 解读ServiceComb社区针对用户痛点所推出的创新项目架构、roadmap及场景案例，包括:多语言运行环境、微服务契约工具、服务中心异构通信、分布式配置中心、微服务鉴权；同时向社区发出召集令，号召更多的兴趣爱好者投入开源社区贡献。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/hc2019/innovative.jpg&quot; alt=&quot;2&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;《华为云微服务工具解放开发者》&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/slides/20190920/HUAWEI_CLOUD_Microservice_Tool_Improves_Development_Efficiency.pdf&quot;&gt;中文PDF下载&lt;/a&gt;  &lt;a href=&quot;/assets/slides/20190920/EN/HUAWEI_CLOUD_Microservice_Tool_Improves_Development_Efficiency.pdf&quot;&gt;英文PDF下载&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;王启军, 华为云PaaS团队架构师：&lt;/strong&gt; 华为云微服务基于ServiceComb的实践，通过案例分享了微服务拆分工具，契约管理工具这2个开发者/用户关注度最高的微服务工具。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/hc2019/efficiency.jpg&quot; alt=&quot;4&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;关于Apache ServiceComb 项目&lt;/strong&gt;：&lt;/p&gt;
+
+&lt;p&gt;ServiceComb Apache软件基金会孵化项目的主体代码由华为云捐赠，致力于帮助企业轻松构建云原生应用及传统企业业务快速微服务化，通过系列解决方案帮助用户快速开发微服务的同时实现对这些微服务应用的高效运维管理。它具有完整的微服务生态栈，无厂商锁定，当前遵循Apache Way进行孵化，已拥有如消费者云、云EI、云安全、云核等华为业务之外的一批非华为商用用户，且社区和开发者也日趋多样化。&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;如您有更多问题关于Aapche ServiceComb，欢迎您扫码或微信添加“ServiceComb小助手”，我们将认真对待您的每一个问题&lt;/strong&gt;
+&lt;img src=&quot;/assets/images/QRcode.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;</content><author><name>Dean Lee</name></author><category term="microservice" /><category term="Meetup" /><summary type="html">Apache ServiceComb Meetup -Shanghai 2019.09.20 Report (PPT)</summary></entry><entry xml:lang="cn"><title type="html">如何给微服务架构的项目做验收测试？</title><link href="/cn/docs/how-to-do-microservice-accept-test/" rel="alternate" type="text/html" title="如何给微服务架构的项目做验收测试？" /><published>2019-07-04T00:00:00+08:00</published><updated>2019-07-04T10:37:43+08:00</updated><id>/cn/docs/how-to-do-microservice-accept-test</id><content type="html" xml:base="/cn/docs/how-to-do-microservice-accept-test/">&lt;h3 id=&quot;如何给微服务架构的项目做验收测试&quot;&gt;如何给微服务架构的项目做验收测试？&lt;/h3&gt;
+
+&lt;p&gt;基于微服务架构的应用相对于单体架构的应用而言在验收测试阶段具有以下挑战：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;复数的服务增加了测试环境搭建的难度&lt;/li&gt;
+  &lt;li&gt;各种异常情况的模拟变得困难，基于Mock的测试方式无法对整个调用链路作异常模拟，进而使得对整体架构的健壮性测试变得困难&lt;/li&gt;
+  &lt;li&gt;基于成本和效率的原因，测试工作已经不适合通过人工完成&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;我们认为对基于微服务架构的应用的验收测试应该具有以下特征：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;自动化、可重复、易于和CI工具集成&lt;/li&gt;
+  &lt;li&gt;能够在测试运行时修改服务的行为&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;下面将就一个Demo来介绍如何利用 &lt;a href=&quot;https://www.docker.com/&quot;&gt;Docker [1]&lt;/a&gt;、&lt;a href=&quot;https://cucumber.io/&quot;&gt;Cucumber [2]&lt;/a&gt;、&lt;a href=&quot;https://byteman.jboss.org/&quot;&gt;Byteman [3]&lt;/a&gt;、&lt;a href=&quot;https://dmp.fabric8.io/&quot;&gt;Fabric8 docker-maven-plugin [4]&lt;/a&gt;、&lt;a href=&quot;https://github.com/spotify/dockerfile-maven&quot;&gt;Spotify dockerfile-maven-plugin [5]&lt;/a&gt;达成以上目标。&lt;/p&gt;
+
+&lt;h3 id=&quot;demo介绍&quot;&gt;Demo介绍&lt;/h3&gt;
+
+&lt;p&gt;一共有两个服务Product Service（商品服务）和Product Price Service（商品价格服务），Product Service提供了一个查询接口用于获得商品信息及其价格信息的组合结果，这相当于跨服务的SQL JOIN。&lt;/p&gt;
+
+&lt;p&gt;下面是Product的Schema：&lt;/p&gt;
+
+&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;id&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;string&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;string&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;string&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;下面是ProductPrice的Schema：&lt;/p&gt;
+
+&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;id&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;string&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;price&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;number&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Product Service返回的Schema则是：&lt;/p&gt;
+
+&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;products&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;id&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;string&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;string&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;string&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;price&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;number&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;该接口的实现逻辑是：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Product Service本地查询得到Product List&lt;/li&gt;
+  &lt;li&gt;Product Service调用Product Price Service接口得到ProductPrice List&lt;/li&gt;
+  &lt;li&gt;拼装结果&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;此外还有一个要求，当Product Price Service出现异常时，Product Service依然要能够返回结果，只不过&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;price&lt;/code&gt;字段为&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;null&lt;/code&gt;，即无论如何Product Service都要能够返回结果。&lt;/p&gt;
+
+&lt;h3 id=&quot;实现步骤&quot;&gt;实现步骤&lt;/h3&gt;
+
+&lt;h4 id=&quot;构建docker-image&quot;&gt;构建Docker Image&lt;/h4&gt;
+
+&lt;p&gt;为了能够便利地搭建测试环境，我们需要先为Product Servcie和Product Price Service构建Docker Image。利用&lt;a href=&quot;https://github.com/spotify/dockerfile-maven&quot;&gt;Spotify dockerfile-maven-plugin [5]&lt;/a&gt;可以很方便地做到这一点，它没有引入额外的概念，只要你会写&lt;a href=&quot;https://docs.docker.com/engine/reference/builder/&quot;&gt;Dockerfile [6]&lt;/a&gt;就行。我们在Product Service和Producer Price Service的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pom.xml&lt;/code&gt;中添加类似以下的配置：&lt;/p&gt;
+
+&lt;div class=&quot;language-xml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;plugin&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;groupId&amp;gt;&lt;/span&gt;com.spotify&lt;span class=&quot;nt&quot;&gt;&amp;lt;/groupId&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;artifactId&amp;gt;&lt;/span&gt;dockerfile-maven-plugin&lt;span class=&quot;nt&quot;&gt;&amp;lt;/artifactId&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;version&amp;gt;&lt;/span&gt;${dockerfile-maven-plugin.version}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/version&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;configuration&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;repository&amp;gt;&lt;/span&gt;msat-${project.artifactId}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/repository&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;tag&amp;gt;&lt;/span&gt;${project.version}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/tag&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;buildArgs&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;JAR_FILE&amp;gt;&lt;/span&gt;${project.build.finalName}-exec.${project.packaging}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/JAR_FILE&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/buildArgs&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/configuration&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;executions&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;execution&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;id&amp;gt;&lt;/span&gt;build&lt;span class=&quot;nt&quot;&gt;&amp;lt;/id&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;phase&amp;gt;&lt;/span&gt;package&lt;span class=&quot;nt&quot;&gt;&amp;lt;/phase&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;goals&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;goal&amp;gt;&lt;/span&gt;build&lt;span class=&quot;nt&quot;&gt;&amp;lt;/goal&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/goals&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/execution&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/executions&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/plugin&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;并且提供了Dockerfile：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-txt&quot;&gt;FROM openjdk:8-jre-alpine
+ARG JAR_FILE
+ENV JAR_FILE=${JAR_FILE}
+RUN mkdir /maven
+COPY target/${JAR_FILE} /maven
+COPY target/lib/byteman.jar /maven
+ENTRYPOINT java $JAVA_OPTS -jar /maven/$JAR_FILE
+EXPOSE 8080
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;注意我们在Image中添加了byteman.jar，利用它我们可以在运行时修改程序的行为。&lt;/p&gt;
+
+&lt;h4 id=&quot;编写验收测试脚本&quot;&gt;编写验收测试脚本&lt;/h4&gt;
+
+&lt;p&gt;我们新建一个验收测试的Maven项目，然后使用&lt;a href=&quot;https://cucumber.io/&quot;&gt;Cucumber [2]&lt;/a&gt;编写了以下两个场景的验收测试脚本：&lt;/p&gt;
+
+&lt;p&gt;正常情况：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-txt&quot;&gt;Feature: List product information with price
+
+  Scenario: Everything is good
+    Given Product Service is up and running
+    And Product Price Service is up and running
+
+    When User query product list
+
+    Then Get following products
+
+      | id       | name | description            | price |
+      | animal-1 | dog  | woof woof              | 1000  |
+      | animal-2 | duck | quack quack            | 40    |
+      | animal-3 | fox  | what does the fox say? | 5000  |
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;这个脚本的大致意思是在Product Service和Product Price Service都启动的情况下，当用户查询Product信息时，我们会得到上述表格中的结果。&lt;/p&gt;
+
+&lt;p&gt;Product Price Service异常情况：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-txt&quot;&gt;Feature: List product information with price
+
+  Scenario: Product Price Service throws exception when being queried
+    Given Product Service is up and running
+    And Product Price Service is up and running
+
+    Given Install the byteman script product_price_exception.btm to Product Price Service
+
+    When User query product list
+
+    Then Get following products
+
+      | id       | name | description            | price |
+      | animal-1 | dog  | woof woof              |       |
+      | animal-2 | duck | quack quack            |       |
+      | animal-3 | fox  | what does the fox say? |       |
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;注意到我们在这里使用了&lt;a href=&quot;https://byteman.jboss.org/&quot;&gt;Byteman [3]&lt;/a&gt;注入了异常情况给Product Price Service：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-txt&quot;&gt;Given Install the byteman script product_price_exception.btm to Product Price Service
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;product_price_exception.btm&lt;/code&gt;的内容是这样的：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-txt&quot;&gt;RULE throw exception
+CLASS me.chanjar.msat.productprice.FakeProductPriceRepository
+METHOD listAll
+AT ENTRY
+IF TRUE
+DO debug(&quot;throw RuntimeException here&quot;),
+   throw new RuntimeException(&quot;Product Repository Error!&quot;)
+ENDRULE
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;意思是在调用&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FakeProductPriceRepository.listAll&lt;/code&gt;方法时抛出异常，注意这样做并没有修改Product Price Service的源码，而是在运行时修改了它的逻辑。&lt;/p&gt;
+
+&lt;p&gt;接下来我们为上面的验收测试脚本实现逻辑（下面代码与实际上有所不同，这是为了尽量使得代码篇幅精简）：&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Stepdefs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+
+  &lt;span class=&quot;kd&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;nd&quot;&gt;@Given&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;^Product Service is up and running$&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;productServiceIsUpAndRunning&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;probe&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Product Service&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;PRODUCT_ADDRESS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;nd&quot;&gt;@And&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;^Product Price Service is up and running$&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;productPriceServiceIsUpAndRunning&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;probe&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Product Price Service&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;PRODUCT_PRICE_ADDRESS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;clearBytemanScript&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;nd&quot;&gt;@When&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;^User query product list$&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;queryProductList&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;given&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;when&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;PRODUCT_ADDRESS&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;/products&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;statusCode&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;is&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;))&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;extract&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;jsonPath&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getList&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;products&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;nd&quot;&gt;@Given&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;^Install the byteman script ([A-Za-z0-9_\\.]+) to Product Price Service$&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;injectExceptionIntoProductPriceService&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bytemanScript&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;throws&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Exception&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;injectBytemanScript&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;target/test-classes/&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bytemanScript&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;nd&quot;&gt;@Then&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;^Get following products$&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;compareResult&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;expected&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;assertThat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;answer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;containsExactlyInAnyOrderElementsOf&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;expected&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;关于&lt;a href=&quot;https://cucumber.io/&quot;&gt;Cucumber [2]&lt;/a&gt;和&lt;a href=&quot;https://byteman.jboss.org/&quot;&gt;Byteman [3]&lt;/a&gt;的更详细的介绍可以见&lt;a href=&quot;https://servicecomb.apache.org/cn/docs/saga_with_cucumber/&quot;&gt;ServiceComb Saga使用Cucumber做验收测试源码分析 [7]&lt;/a&gt;。&lt;/p&gt;
+
+&lt;h4 id=&quot;自动化搭建测试环境&quot;&gt;自动化搭建测试环境&lt;/h4&gt;
+
+&lt;p&gt;我们希望能够在Maven的&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;integration-test&lt;/code&gt; 阶段搭建测试环境、执行上述验收测试脚本。在&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pom.xml&lt;/code&gt;中添加到&lt;a href=&quot;https://dmp.fabric8.io/&quot;&gt;Fabric8 docker-maven-plugin [4]&lt;/a&gt;：&lt;/p&gt;
+
+&lt;div class=&quot;language-xml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;plugin&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;groupId&amp;gt;&lt;/span&gt;io.fabric8&lt;span class=&quot;nt&quot;&gt;&amp;lt;/groupId&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;artifactId&amp;gt;&lt;/span&gt;docker-maven-plugin&lt;span class=&quot;nt&quot;&gt;&amp;lt;/artifactId&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;configuration&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;showLogs&amp;gt;&lt;/span&gt;true&lt;span class=&quot;nt&quot;&gt;&amp;lt;/showLogs&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;images&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;image&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;name&amp;gt;&lt;/span&gt;msat-product:${project.version}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/name&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;alias&amp;gt;&lt;/span&gt;msat-product&lt;span class=&quot;nt&quot;&gt;&amp;lt;/alias&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;run&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;wait&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;log&amp;gt;&lt;/span&gt;Started [a-zA-Z]+ in [0-9.]+ seconds&lt;span class=&quot;nt&quot;&gt;&amp;lt;/log&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;time&amp;gt;&lt;/span&gt;120000&lt;span class=&quot;nt&quot;&gt;&amp;lt;/time&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;/wait&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;links&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&amp;gt;&lt;/span&gt;msat-product-price:msat-product-price&lt;span class=&quot;nt&quot;&gt;&amp;lt;/link&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;/links&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;ports&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;port&amp;gt;&lt;/span&gt;product.port:8080&lt;span class=&quot;nt&quot;&gt;&amp;lt;/port&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;/ports&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/run&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/image&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;image&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;name&amp;gt;&lt;/span&gt;msat-product-price:${project.version}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/name&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;alias&amp;gt;&lt;/span&gt;msat-product-price&lt;span class=&quot;nt&quot;&gt;&amp;lt;/alias&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;run&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;env&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;JAVA_OPTS&amp;gt;&lt;/span&gt;
+              -Dorg.jboss.byteman.debug=true -Dorg.jboss.byteman.verbose=true
+              -javaagent:/maven/byteman.jar=port:9091,address:0.0.0.0,listener:true
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;/JAVA_OPTS&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;/env&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;wait&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;log&amp;gt;&lt;/span&gt;Started [a-zA-Z]+ in [0-9.]+ seconds&lt;span class=&quot;nt&quot;&gt;&amp;lt;/log&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;time&amp;gt;&lt;/span&gt;120000&lt;span class=&quot;nt&quot;&gt;&amp;lt;/time&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;/wait&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;ports&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;port&amp;gt;&lt;/span&gt;product-price.port:8080&lt;span class=&quot;nt&quot;&gt;&amp;lt;/port&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nt&quot;&gt;&amp;lt;port&amp;gt;&lt;/span&gt;product-price.byteman.port:9091&lt;span class=&quot;nt&quot;&gt;&amp;lt;/port&amp;gt;&lt;/span&gt;
+          &lt;span class=&quot;nt&quot;&gt;&amp;lt;/ports&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/run&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/image&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/images&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/configuration&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;executions&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;execution&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;id&amp;gt;&lt;/span&gt;start&lt;span class=&quot;nt&quot;&gt;&amp;lt;/id&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;phase&amp;gt;&lt;/span&gt;pre-integration-test&lt;span class=&quot;nt&quot;&gt;&amp;lt;/phase&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;goals&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;goal&amp;gt;&lt;/span&gt;start&lt;span class=&quot;nt&quot;&gt;&amp;lt;/goal&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/goals&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/execution&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;execution&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;id&amp;gt;&lt;/span&gt;stop&lt;span class=&quot;nt&quot;&gt;&amp;lt;/id&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;phase&amp;gt;&lt;/span&gt;post-integration-test&lt;span class=&quot;nt&quot;&gt;&amp;lt;/phase&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;goals&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;goal&amp;gt;&lt;/span&gt;stop&lt;span class=&quot;nt&quot;&gt;&amp;lt;/goal&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/goals&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/execution&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/executions&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/plugin&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;这样一来就能够在&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pre-integration-test&lt;/code&gt;阶段启动容器，在&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post-integration-test&lt;/code&gt;阶段销毁容器了。&lt;/p&gt;
+
+&lt;h4 id=&quot;take-a-run&quot;&gt;Take a run&lt;/h4&gt;
+
+&lt;p&gt;接下来只需要&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mvn clean install&lt;/code&gt;它就会：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;构建：
+    &lt;ol&gt;
+      &lt;li&gt;构建Product Service项目，并为其构建Docker Image&lt;/li&gt;
+      &lt;li&gt;构建Product Price Service项目，并为其构建Docker Image&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;验收测试：
+    &lt;ol&gt;
+      &lt;li&gt;启动Product Service和Product Price Service的容器&lt;/li&gt;
+      &lt;li&gt;执行验收测试脚本&lt;/li&gt;
+      &lt;li&gt;销毁上述创建的容器&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;如果你想自己试试可以下载&lt;a href=&quot;https://github.com/chanjarster/microservice-acceptance-test-demo&quot;&gt;本项目源码[8]&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;欢迎开发者朋友们加入ServiceComb社区，一起做些有意思的事情。&lt;a href=&quot;http://servicecomb.incubator.apache.org/cn/docs/join_the_community/&quot;&gt;加入社区方法[9]&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;参考资料&quot;&gt;参考资料&lt;/h3&gt;
+
+&lt;p&gt;[1] Docker https://www.docker.com/&lt;/p&gt;
+
+&lt;p&gt;[2] Cucumber https://cucumber.io/&lt;/p&gt;
+
+&lt;p&gt;[3] Byteman  https://byteman.jboss.org/&lt;/p&gt;
+
+&lt;p&gt;[4] Fabric8 docker-maven-plugin  https://dmp.fabric8.io/&lt;/p&gt;
+
+&lt;p&gt;[5] Spotify dockerfile-maven-plugin https://github.com/spotify/dockerfile-maven&lt;/p&gt;
+
+&lt;p&gt;[6] Dockerfile https://docs.docker.com/engine/reference/builder/&lt;/p&gt;
+
+&lt;p&gt;[7] ServiceComb Saga使用Cucumber做验收测试源码分析 https://servicecomb.apache.org/cn/docs/saga_with_cucumber/&lt;/p&gt;
+
+&lt;p&gt;[8] 本项目源码 https://github.com/chanjarster/microservice-acceptance-test-demo&lt;/p&gt;
+
+&lt;p&gt;[9] 加入Servicecomb社区  http://servicecomb.incubator.apache.org/cn/docs/join_the_community/&lt;/p&gt;</content><author><name>Qian Jia</name><email>chanjarster@gmail.com</email><uri>https://github.com/chanjarster</uri></author><category term="微服务" /><summary type="html">本文将介绍如何给微服务架构的项目做验收测试</summary></entry><entry xml:lang="en"><title type="html">Apache ServiceComb Meetup - Shanghai 2019.06.24 Report (PDF Download)</title><link href="/docs/Apache-ServiceComb-Meetup-2019-Shanghai-KubeCon+CloudNative+OSS-Report/" rel="alternate" type="text/html" title="Apache ServiceComb Meetup - Shanghai 2019.06.24 Report (PDF Download)" /><published>2019-07-02T00:00:00+08:00</published><updated>2019-07-02T12:26:28+08:00</updated><id>/docs/Apache-ServiceComb-Meetup-2019-Shanghai-KubeCon+CloudNative+OSS-Report</id><content type="html" xml:base="/docs/Apache-ServiceComb-Meetup-2019-Shanghai-KubeCon+CloudNative+OSS-Report/">&lt;p&gt;On June 24, 2019, Beijing time, at the Shanghai World Expo Center in China, the Apache ServiceComb community held microservice Co-Located event at the KubeCon+CloudNativeCon+Open Source Summit conference which the most prestigious in the open source industry.&lt;/p&gt;
+
+&lt;p&gt;The event invited Apache Member, Apache Committer, Huawei Cloud ServiceStage Chief Engineer, Jingdong DBA Expert, Global Top10 IT Service Provider Development Manager and other senior practitioners to share experience,the topic of the speech includes Apache community development experience, enterprise PaaS responds to complex network topology cases, car brand digital marketing system microservice practices, high-performance service communication optimization techniques and so on. ServiceComb community has also released a series of  innovative new projects to assist user solve pain points of microservice&lt;/p&gt;
+
+&lt;p&gt;In the process of enterprise transformation to digitalization and cloudization, microservice is the best choice. However, it is not a silver bullet. Enterprises will encounter many challenges in the process of microservice. ServiceComb will continue to closely focus on users and developers,solve the problem of microservice pain points.&lt;/p&gt;
+
+&lt;p&gt;Adhering to the concept of “provide a one-stop open source micro-service solution to assist enterprises, users and developers migrate applications on the cloud, archieving efficient O&amp;amp;M and management of microservice applications”,ServiceComb community initiates a convening order to mobilize aspiring people to join the community and do something interesting together.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Community_Summoned_en.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Video review:&lt;/strong&gt; &lt;a href=&quot;https://huaweicloud.bugu.mudu.tv/watch/ym1vkamp&quot;&gt;Link&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;《ServiceComb opensource way》&lt;/strong&gt;  &lt;a href=&quot;/assets/slides/20190624/1_ServiceComb_Opensource_Way.pdf&quot;&gt;PDF Download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker：&lt;/strong&gt; &lt;strong&gt;Willem Jiang&lt;/strong&gt;, Apache Member, Apache ServiceComb VP&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Summary：&lt;/strong&gt; This speech summarizes the experience and gains of ServiceComb open source in the past two years. Hope that to assist guys understand open source, participate in open source, and create a better future.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;《Digital marketing system microservice practice of car brands》&lt;/strong&gt;  &lt;a href=&quot;/assets/slides/20190624/2_NTTDATA_Microservice_Practices.pdf&quot;&gt;PDF Download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker：&lt;/strong&gt; &lt;strong&gt;Xiaowei Zhu&lt;/strong&gt;, NTTDATA Shanghai Branch, Digital Marketing Development Manager&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Summary：&lt;/strong&gt; This speech shares the transformation of NTTDATA into microservice, and creates a digital marketing platform for car brands, assist enterprises to flexibly respond to market demands and supporting the practice of fast changing business scenarios of digital marketing.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;《Microservice practice in enterprise PaaS》&lt;/strong&gt;  &lt;a href=&quot;/assets/slides/20190624/3_Enterprise_PaaS_Microservice_Pratices.pdf&quot;&gt;PDF Download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker：&lt;/strong&gt; &lt;strong&gt;Shawn Tian&lt;/strong&gt;, Huawei Cloud ServiceStage Chief Engineer&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Summary：&lt;/strong&gt; This speech shares Huawei Cloud PaaS platform using ServiceComb to solve complex network topology problems of distributed systems, assist users complete microservice transformation.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;《ServiceComb innovation new projects release》&lt;/strong&gt;  &lt;a href=&quot;/assets/slides/20190624/4_Innovation_New_Project_Release.pdf&quot;&gt;PDF Download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker：&lt;/strong&gt; &lt;strong&gt;Mabin&lt;/strong&gt;, Apache ServiceComb member, Huawei Open Source Software Architect&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Summary：&lt;/strong&gt; This speech shares the pain points of users in the process of implementing microservices transformation, as well as ServiceComb’s innovative projects, we look forward to working with more users and developers to think about how to solve the problems in microservices together.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;《ShardingSphere combines ServiceComb distributed transaction solution》&lt;/strong&gt;  &lt;a href=&quot;/assets/slides/20190624/5_ShardingSphere_Distributed_Transaction_Solution.pdf&quot;&gt;PDF Download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker：&lt;/strong&gt; &lt;strong&gt;Juan Pan&lt;/strong&gt;, Apache ShardingSphere member, Jingdong DBA Expert&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Summary：&lt;/strong&gt; This speech revolves around distributed transactions, explains that ShardingSphere(the first ASF distributed database middleware project) to join forces with ServiceComb(the first ASF microservice top-level project) to implement distributed transactions solution in microservice and distributed database scenarios.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;《High-performance service communication practice》&lt;/strong&gt;  &lt;a href=&quot;/assets/slides/20190624/6_Microservice_High_Performance_Communication.pdf&quot;&gt;PDF Download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker：&lt;/strong&gt; &lt;strong&gt;Bruce Liu&lt;/strong&gt;, Apache Commiter&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Summary：&lt;/strong&gt; This speech combines the communication optimization practices of servicecomb-java-chassis to illustrate some common methods of performance optimization, and from a practical perspective, sharing performance optimization in terms of system reliability, resource planning, and other aspects that are not easily perceived by developers directly. .&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;《Huawei Cloud distributed transaction solution》&lt;/strong&gt;  &lt;a href=&quot;/assets/slides/20190624/7_HuaweiCloud_Distributed_Transaction_DTM_Practices.pdf&quot;&gt;PDF Download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Speaker：&lt;/strong&gt; &lt;strong&gt;Jon Wang&lt;/strong&gt;, Huawei Cloud Architect&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Summary：&lt;/strong&gt; This topic explains how to implement distributed transactions when you build microservices based on Huawei Cloud through related scenarios. How to fail back? How to deal with timeouts? Explain in detail the principles behind it.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;more questions, welcome to scan the QR code or WeChat to add “ServiceComb Assistant&lt;/strong&gt;
+&lt;img src=&quot;/assets/images/QRcode.png&quot; alt=&quot;1&quot; /&gt;&lt;/p&gt;</content><author><name>Mabin</name></author><category term="Microservice" /><category term="Meetup" /><summary type="html">Apache ServiceComb Meetup</summary></entry></feed>

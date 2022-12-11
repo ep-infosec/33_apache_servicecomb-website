@@ -1,0 +1,1082 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.4.1 by Michael Rose
+  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Release Notes - Apache ServiceComb</title>
+
+
+
+
+<meta name="description" content="Release Notes">
+
+
+
+
+<meta name="author" content="">
+
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="Apache ServiceComb">
+<meta property="og:title" content="Release Notes">
+
+
+  <link rel="canonical" href="https://github.com/pages/apache/incubator-servicecomb-website/release/service-center-release-notes/">
+  <meta property="og:url" content="https://github.com/pages/apache/incubator-servicecomb-website/release/service-center-release-notes/">
+
+
+
+  <meta property="og:description" content="Release Notes">
+
+
+
+  <meta name="twitter:site" content="@ServiceComb">
+  <meta name="twitter:title" content="Release Notes">
+  <meta name="twitter:description" content="Release Notes">
+  <meta name="twitter:url" content="">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Apache ServiceComb",
+      "url" : "https://github.com/pages/apache/incubator-servicecomb-website",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+  <meta name="google-site-verification" content="HvJjNd7vvJ-yjSTHlBiIWEYxp_Hrz-PYEY5Idz9LRcA" />
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Apache ServiceComb Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+<script src="/assets/vendor/prism/prism.js"></script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+<script src="https://www.apachecon.com/event-images/snippet.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/assets/vendor/prism/prism.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+<meta http-equiv="cleartype" content="on">
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+<link href="https://fonts.loli.net/css?family=Roboto:400,500,700|Source+Code+Pro" rel="stylesheet">
+<script src="/assets/js/custom.js"></script>
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead" onmouseleave="$('#childrenShow').css('display', 'none')">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+	      
+          <a class="site-title active" href="/"><img src="https://www.apache.org/img/servicecomb.png"></a>
+	      
+        <ul class="visible-links">
+          
+            
+          
+          
+            
+              <li class="masthead__menu-item" onmouseenter="$('#childrenShow').css('display', 'none')">
+                
+                  <a href="/">Home</a>
+                
+              </li>
+            
+          
+            
+          
+          
+            
+              <li class="masthead__menu-item" onmouseenter="$('#childrenShow').css('display', 'none')">
+                
+                  <a href="/developers/">Projects</a>
+                
+              </li>
+            
+          
+            
+          
+          
+            
+            <li class="def-nav-li" onmouseenter="$('#childrenShow').css('display', 'block')">
+              
+              
+              
+
+              
+                <a href="/docs/users/">Documentation</a>
+              
+
+              <ul id="childrenShow" class="def-children-show-en" onmouseleave="$('#childrenShow').css('display', 'none')">
+                
+                <li><a href="/docs/getting-started/" class="">Getting started</a></li>
+                
+                <li><a href="/docs/users/" class="">Docs</a></li>
+                
+                <li><a href="/slides/" class="">Video</a></li>
+                
+                <li><a href="/faqs/" class="">FAQ</a></li>
+                
+              </ul>
+            </li>
+          
+          
+            
+          
+          
+            
+              <li class="masthead__menu-item" onmouseenter="$('#childrenShow').css('display', 'none')">
+                
+                  <a href="/year-archive/">Blogs</a>
+                
+              </li>
+            
+          
+            
+          
+          
+            
+              <li class="masthead__menu-item" onmouseenter="$('#childrenShow').css('display', 'none')">
+                
+                  <a class="active" href="/release/">Downloads</a>
+                
+              </li>
+            
+          
+        </ul>
+        <button><div class="navicon"></div></button>
+        <ul class="hidden-links hidden"></ul>
+        <div class="nav-lang">
+          
+            
+            <a href=/cn/release/service-center-release-notes/>中文</a>
+          
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+      
+      <div class="back-to-home"><a href="/">Home</a> > Release Notes</div>
+      
+  
+  
+    
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Service-Center</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/release/service-center-release-notes/" class="active">Release Notes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/release/service-center-downloads/" class="">Downloads</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Kie</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/release/kie-release-notes/" class="">Release Notes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/release/kie-downloads/" class="">Downloads</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Java-Chassis</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/release/java-chassis-release-notes/" class="">Release Notes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/release/java-chassis-downloads/" class="">Downloads</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Mesher</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/release/mesher-release-notes/" class="">Release Notes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/release/mesher-downloads/" class="">Downloads</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Pack</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/release/pack-release-notes/" class="">Release Notes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/release/pack-downloads/" class="">Downloads</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Toolkit</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/release/toolkit-release-notes/" class="">Release Notes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/release/toolkit-downloads/" class="">Downloads</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Saga Actuator</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/release/saga-actuator-release-notes/" class="">Release Notes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/release/saga-actuator-downloads/" class="">Downloads</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Saga</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/release/saga-release-notes/" class="">Release Notes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/release/saga-downloads/" class="">Downloads</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Release Notes">
+    <meta itemprop="description" content="Release Notes">
+    
+    <meta itemprop="dateModified" content="March 25, 2022">
+
+    <div class="page__inner-wrap">
+      
+        
+          <header>
+            <h1 class="page__title" itemprop="headline">Release Notes
+</h1>
+            
+          </header>
+        
+      
+
+      <section class="page__content" itemprop="text">
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    Release Notes - Apache ServiceComb - Version service-center-2.1.0
+</code></pre></div></div>
+
+<h2 id="bug">Bug</h2>
+<ul>
+  <li><a href="https://issues.apache.org/jira/browse/SCB-2400">SCB-2400</a> - Govern api return empty schemaIds</li>
+  <li><a href="https://issues.apache.org/jira/browse/SCB-2403">SCB-2403</a> - Start up failed when upgrade sc version</li>
+  <li><a href="https://issues.apache.org/jira/browse/SCB-2404">SCB-2404</a> - Return internal properties when list all microservices</li>
+  <li><a href="https://issues.apache.org/jira/browse/SCB-2411">SCB-2411</a> - Try dlock before start retirement job</li>
+  <li><a href="https://issues.apache.org/jira/browse/SCB-2418">SCB-2418</a> - Fix etcd metrics not correct</li>
+  <li><a href="https://issues.apache.org/jira/browse/SCB-2420">SCB-2420</a> - Can not delete unused role
+    <h2 id="new-feature">New Feature</h2>
+  </li>
+  <li><a href="https://issues.apache.org/jira/browse/SCB-2402">SCB-2402</a> - Support synchronization of multiple registries</li>
+  <li><a href="https://issues.apache.org/jira/browse/SCB-2401">SCB-2401</a> - Append inner properties when heartbeat success</li>
+  <li><a href="https://issues.apache.org/jira/browse/SCB-2408">SCB-2408</a> - Add put instance service</li>
+  <li><a href="https://issues.apache.org/jira/browse/SCB-2409">SCB-2409</a> - Add resource usage service</li>
+  <li><a href="https://issues.apache.org/jira/browse/SCB-2412">SCB-2412</a> - Add dlock service</li>
+  <li><a href="https://issues.apache.org/jira/browse/SCB-2414">SCB-2414</a> - Add schema retire cron job</li>
+  <li><a href="https://issues.apache.org/jira/browse/SCB-2415">SCB-2415</a> - Add schema ref</li>
+  <li><a href="https://issues.apache.org/jira/browse/SCB-2419">SCB-2419</a> - Add govern service
+    <h2 id="improvement">Improvement</h2>
+  </li>
+  <li><a href="https://issues.apache.org/jira/browse/SCB-2405">SCB-2405</a> - Use dlock instead</li>
+  <li><a href="https://issues.apache.org/jira/browse/SCB-2406">SCB-2406</a> - Using cari’s mongo db client</li>
+  <li><a href="https://issues.apache.org/jira/browse/SCB-2407">SCB-2407</a> - Using cari db client</li>
+  <li><a href="https://issues.apache.org/jira/browse/SCB-2410">SCB-2410</a> - Refactoring disco service</li>
+  <li><a href="https://issues.apache.org/jira/browse/SCB-2413">SCB-2413</a> - Refactoring RBAC datasource interface</li>
+  <li><a href="https://issues.apache.org/jira/browse/SCB-2416">SCB-2416</a> - Refactoring quota mgr</li>
+  <li>
+    <p><a href="https://issues.apache.org/jira/browse/SCB-2417">SCB-2417</a> - Refactoring schema service</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  Release Notes - Apache ServiceComb - Version service-center-2.0.0
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<p>​</p>
+<h2>        Bug
+</h2>
+<ul>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-2259">SCB-2259</a>] -         gopool can not reuse worker with certainty
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-2176">SCB-2176</a>] -         SD Cache is not consistency
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1720">SCB-1720</a>] -         Service-center consumes huge CPU when it is disconnected from etcd
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1069">SCB-1069</a>] -         Wrong response of batch delete microservices API
+</li>
+</ul>
+
+<p>​</p>
+<h2>        New Feature
+</h2>
+<ul>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-2133">SCB-2133</a>] -         governance northbound Interface / abstract access layer
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-2094">SCB-2094</a>] -         New datasource architecture
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-2093">SCB-2093</a>] -         Supplement the role module of rbac
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-952">SCB-952</a>] -         Support sync ServiceComb service to Kubernetes
+</li>
+</ul>
+
+<h2>        Improvement
+</h2>
+<ul>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-624">SCB-624</a>] -         Abstract service layer between api and cache
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-489">SCB-489</a>] -         Suggest to add Service Center user guide and development guide to the ServiceComb official website
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-438">SCB-438</a>] -         As SC model is changing, we should keep SC proto spec in isolated project, so that go sdk can import same model as SC does
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-2022">SCB-2022</a>] -         Migrate service-center documents to sphinx
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1712">SCB-1712</a>] -         Reset the etcd cache periodically
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1545">SCB-1545</a>] -         add support env config for logfilepath and logfile level
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1042">SCB-1042</a>] -         Support upload SC schemas
+</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    Release Notes - Apache ServiceComb - Version service-center-1.3.0
+</code></pre></div></div>
+
+<h2>        Sub-task
+</h2>
+<ul>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1296">SCB-1296</a>] -         [Syncer] Store Syncer data to etcd
+</li>
+</ul>
+
+<h2>        New Feature
+</h2>
+<ul>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1295">SCB-1295</a>] -         Syncer for synchronize data between multiple service centers
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1301">SCB-1301</a>] -         [Syncer] Syncer reliability improvement, support for etcd cluster management
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1302">SCB-1302</a>] -         [Syncer]Refactor data strcture of storage module to support springcloud Eureka.
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1307">SCB-1307</a>] -         Store Syncer data to etcd
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1453">SCB-1453</a>] -         [Syncer] New servicecenter plugin supported eureka
+</li>
+</ul>
+
+<h2>        Improvement
+</h2>
+<ul>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1427">SCB-1427</a>] -         Move storage to syncer/servicecenter
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1429">SCB-1429</a>] -         Use etcd operation
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1441">SCB-1441</a>] -         [Syncer] Support for using tls certificate in Syner
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1464">SCB-1464</a>] -         [Syncer] The architecture picture needs to be updated, after adding support for eureka
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1465">SCB-1465</a>] -         [Syncer] Command line parameter error in Quick Start
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1491">SCB-1491</a>] -         [Syncer] Example of instance access between multiple service-centers
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1498">SCB-1498</a>] -         Allow schema modification of services in production environment
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1512">SCB-1512</a>] -         Allow custom handler chain
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1539">SCB-1539</a>] -         Add command line to support output syncer version
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1540">SCB-1540</a>] -         Add syncer&#39;s packaging command to the script of release
+</li>
+</ul>
+<p>​</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    Release Notes - Apache ServiceComb - Version service-center-1.2.0
+</code></pre></div></div>
+
+<h2>        Bug
+</h2>
+<ul>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1050">SCB-1050</a>] -         Metrics cache does not clean
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1059">SCB-1059</a>] -         Unexpected events publish if error occurs in previous list-watch loop
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1059">SCB-1059</a>] -         Re-register instance does not keep alive the lease
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1059">SCB-1059</a>] -         Use the raw password if decrypt failed
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1059">SCB-1059</a>] -         Should not show the shared microservices by default
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1059">SCB-1059</a>] -         Add grpc keepalive time
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1069">SCB-1069</a>] -         Wrong response of batch delete microservices API
+</li>
+</ul>
+
+<h2>        New Feature
+</h2>
+<ul>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1049">SCB-1049</a>] -         Alarm center
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1087">SCB-1087</a>] -         Add View Schema Option in Schema Details Page
+</li>
+</ul>
+
+<h2>        Improvement
+</h2>
+<ul>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1052">SCB-1052</a>] -         import zap logger without binding go version
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1053">SCB-1053</a>] -         Batch microservices instances discovery API
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1070">SCB-1070</a>] -         New instance &#39;TESTING&#39; status
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1092">SCB-1092</a>] -         More abundant metrics information
+</li>
+</ul>
+
+<h2>        Task
+</h2>
+<ul>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1219">SCB-1219</a>] -         Prepare 1.2.0 Release
+</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    Release Notes - Apache ServiceComb - Version service-center-1.1.0
+</code></pre></div></div>
+
+<h2>        Bug
+</h2>
+<ul>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-744">SCB-744</a>] -         Wrong error code returned in Find API
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-851">SCB-851</a>] -         Can not get providers if consumer have * dependency rule
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-857">SCB-857</a>] -         Provider rule of consumer can not be removed
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-863">SCB-863</a>] -         build script for docker image gives an error
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-890">SCB-890</a>] -         Lost changed event when bootstrap with embedded etcd
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-912">SCB-912</a>] -         rest client still verify peer host when verifyPeer flag set false
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-924">SCB-924</a>] -         Etcd cacher should re-list etcd in fixed time interval
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-927">SCB-927</a>] -         The latest Lager is not compatible
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-929">SCB-929</a>] -         Concurrent error in update resource APIs
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-930">SCB-930</a>] -         Service Center Frontend stops responding in Schema test if Schema has &#39;\&quot;&#39; character in the description
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-934">SCB-934</a>] -         Get all dependency rules will panic
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-938">SCB-938</a>] -         Should check self presevation max ttl
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-951">SCB-951</a>] -         Wrong help information in scctl
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-958">SCB-958</a>] -         The instance delete event delay more than 2s
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-977">SCB-977</a>] -         Dependencies will not be updated in 5min when micro service is changed
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-980">SCB-980</a>] -         The dependency will be broken when commit etcd failed
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-981">SCB-981</a>] -         Can not remove the microservice and instance properties
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-991">SCB-991</a>] -         Optimize args parsing
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-993">SCB-993</a>] -         Bug fixes
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-994">SCB-994</a>] -         SC can not read the context when client using grpc api
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1027">SCB-1027</a>] -         Fix the core dump in SC which compiled with go1.10+
+</li>
+</ul>
+
+<h2>        New Feature
+</h2>
+<ul>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-815">SCB-815</a>] -         Support deploy in Kubernetes
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-850">SCB-850</a>] -         Support discover instances from kubernetes cluster
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-869">SCB-869</a>] -         SC cli tool
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-902">SCB-902</a>] -         Support service discovery by Service Mesh
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-914">SCB-914</a>] -         Support using scctl to download schemas
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-941">SCB-941</a>] -         Support multiple datacenter deployment
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-949">SCB-949</a>] -         Support access distinct kubernetes clusters
+</li>
+</ul>
+
+<h2>        Improvement
+</h2>
+<ul>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-418">SCB-418</a>] -         How to deploy a SC cluster in container environment
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-435">SCB-435</a>] -         Add plugin document in ServiceCenter
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-792">SCB-792</a>] -         More abundant metrics information
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-796">SCB-796</a>] -         Update the paas-lager package
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-797">SCB-797</a>] -         More information in dump API
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-807">SCB-807</a>] -         Limit the topology view to only 100 microservices.
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-808">SCB-808</a>] -         Aut-refresh the dashboard and service-list page every 10sec
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-809">SCB-809</a>] -         Verify the chinese version of the UI as all chinese text was translated using Google Translate
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-816">SCB-816</a>] -         Update the protobuf version to 1.0.0
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-840">SCB-840</a>] -         Support configable limit in buildin quota plugin
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-844">SCB-844</a>] -         Update golang version to 1.9.2
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-848">SCB-848</a>] -         Uses zap to replace the paas-lager
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-862">SCB-862</a>] -         Using different environment variables in image
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-892">SCB-892</a>] -         output plugins configs in version api
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-899">SCB-899</a>] -         Support go1.11 module maintaining
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-901">SCB-901</a>] -         Making service registration api idempotent
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-937">SCB-937</a>] -         Customizable tracing sample rate
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-953">SCB-953</a>] -         Support sync distinct Kubernetes service types to service-center
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-978">SCB-978</a>] -         Fix translation issues for Chinese Locale on First Load
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-983">SCB-983</a>] -         Output the QPS per domain
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-984">SCB-984</a>] -         Add Health Check command
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1015">SCB-1015</a>] -         Support the forth microservice version number registration
+</li>
+</ul>
+
+<h2>        Task
+</h2>
+<ul>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-720">SCB-720</a>] -         Show the instance statistics in Dashboard and Instance List in Side Menu
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-973">SCB-973</a>] -         TLP graduation tasks
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1016">SCB-1016</a>] -         Change git repo name
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1028">SCB-1028</a>] -         Prepare 1.1.0 Service-Center Release
+</li>
+<li>[<a href="https://issues.apache.org/jira/browse/SCB-1033">SCB-1033</a>] -         Update license for Service-Center
+</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    Release Notes - Apache ServiceComb - Version Service-Center-1.0.0
+</code></pre></div></div>
+
+<h4 id="new-featuresimprovements">New Features/Improvements:</h4>
+<ul>
+  <li>Make ETCD connection more Resilient</li>
+  <li>Make ETCD request timeout configurable</li>
+  <li>Support TLS Plugin</li>
+  <li>Optimize Governance API for Searching Schema</li>
+  <li>Optimize Find Instance API</li>
+  <li>Use glide for dependency management</li>
+  <li>Add release binaries for MacOS</li>
+  <li>Add Toplogy View and Instance View in UI</li>
+</ul>
+
+<h4 id="bug-fix">Bug-Fix:</h4>
+<ul>
+  <li>Fix connection leak in etcd</li>
+  <li>Fix Lose of events in some scenarios</li>
+  <li>Fix Cache mismatch.</li>
+</ul>
+
+<h6 id="for-more-details-please-click-here">For more details please <a href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12321626&amp;version=12342427">click here</a></h6>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    Release Notes - Apache ServiceComb - Version Service-Center-1.0.0-m2
+</code></pre></div></div>
+
+<h4 id="api-changes-">API Changes :</h4>
+<ul>
+  <li>Governance API also returns self microservice information.</li>
+  <li>Governance API should not show the shared microservices information.</li>
+  <li>Support batch delete in registry.</li>
+  <li>Change the type of force query parameter to bool in delete api.</li>
+</ul>
+
+<h4 id="new-featuresimprovements-1">New Features/Improvements:</h4>
+<ul>
+  <li>Support Async Rest Template.</li>
+  <li>Support of Testing Schema from frontend.</li>
+  <li>Support log rotation.</li>
+  <li>Support ipv6.</li>
+  <li>Static data return instanceCount by domain.</li>
+  <li>Convenient store extension.</li>
+  <li>Retry the connection to etcd in-case of failure.</li>
+  <li>Show proper error details in frontend.</li>
+  <li>Support Default TLS Cipher Suites.</li>
+  <li>Proxy Frontend request to Service-Center.</li>
+  <li>Use bower to resolve the dependency of frontend.</li>
+  <li>Add registry server HC mechanism.</li>
+</ul>
+
+<h4 id="bug-fix-1">Bug-Fix:</h4>
+<ul>
+  <li>Fix issue of filter instance using service-tags.</li>
+  <li>Fix re-creation of tracing file.</li>
+  <li>Fix SC cannot check duplicate endpoints when registered with etcd.</li>
+  <li>Fix wrong parentId in tracing data.</li>
+  <li>Fix wrong log print in update Instance.</li>
+  <li>Fix null pointer reference in zipkin plugin.</li>
+  <li>Fix delete service should delete dependency key.</li>
+  <li>Fix cache does not match with etcd store.</li>
+  <li>Fix remove the backup log files which are expired.</li>
+  <li>Fix typos in response of schema api’s.</li>
+  <li>Fix incorrect metric label value.</li>
+  <li>Fix register instance withe same id will create redundant endpoints.</li>
+</ul>
+
+<h6 id="for-more-details-please-click-here-1">For more details please <a href="https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12321626&amp;version=12342354">click here</a></h6>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    Release Notes - Apache ServiceComb - Version Service-Center-1.0.0-m1
+</code></pre></div></div>
+
+<h4 id="api-changes--1">API Changes :</h4>
+<ul>
+  <li>Added new API to get All Schema List.</li>
+  <li>Add Service statistics in the Governance API.</li>
+  <li>Add Self-microservice information in the Governance API.</li>
+</ul>
+
+<h4 id="new-featuresimprovements-2">New Features/Improvements:</h4>
+<ul>
+  <li>Support discovery of SC instances by Consumer micro-service.</li>
+  <li>Event driven implementation for dependency rules.</li>
+  <li>Make compact interval configurable and avoid defragmentation of the database when compacted.</li>
+  <li>Update the default quota’s limit of service/instance count.</li>
+  <li>Update black-list rule controls in discovery.</li>
+</ul>
+
+<h4 id="metrics-">Metrics :</h4>
+<ul>
+  <li>Added support for Prometheus metrics exposure.</li>
+  <li>Added templates for Grafana Dashboard.</li>
+</ul>
+
+<h4 id="optimization">Optimization:</h4>
+<ul>
+  <li>Optimized Restful clients and plugins loader.</li>
+  <li>Optimized Service-Count calculation rule.</li>
+  <li>Use CDN for resolving all the dependencies of frontend.</li>
+</ul>
+
+<h4 id="bug-fix-2">Bug-Fix:</h4>
+<ul>
+  <li>Fix panic issue while deleting instance and invalid metrics request.</li>
+  <li>Fix modify schema response issue and heart-beat failure when etcd has no leader.</li>
+  <li>Fix batch delete api to exempt from unregistering service-center microservice.</li>
+  <li>Fix watcher wrong event sequence when SC modify resource concurrently</li>
+  <li>Fix discovery of default APP services in Shared service mode</li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div align="center" style="margin: 0 0;">
+    <ins class="adsbygoogle"
+         style="display:block; border-bottom: initial;"
+         data-ad-client="ca-pub-7328585512091257"
+         data-ad-slot="3049671934"
+         data-ad-format="auto"></ins>
+    </div>
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+
+        <div class="container">
+  <div class="row justify-content-md-center">
+    
+    <div class="col">
+      <ul>
+        <p class="header">Events</p>
+        <a class="acevent" data-format="square" data-mode="dark" data-event="random"></a>
+      </ul>
+    </div>
+    <div class="col">
+      <ul>
+        <p class="header">Resources</p>
+        <li><a href="/docs/getting-started/">Getting started</a></li>
+        <li><a href="/docs/users/">User Guide</a></li>
+        <li><a href="/slides/">Slides</a></li>
+        <li><a href="/users/faq/">Common Questions</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <ul>
+        <p class="header">ASF</p>
+        <li><a href="http://www.apache.org">Foundation</a></li>
+        <li><a href="http://www.apache.org/licenses/">License</a></li>
+        <li><a href="http://www.apache.org/events/current-event">Events</a></li>
+        <li><a href="http://www.apache.org/foundation/sponsorship.html">Sponsorship</a></li>
+        <li><a href="http://www.apache.org/foundation/thanks.html">Thanks</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <ul>
+        <p class="header">Contribute</p>
+        <li><a href="http://issues.apache.org/jira/browse/SCB">Report a Doc Issue</a></li>
+        <li><a href="https://github.com/apache/servicecomb-website/edit/master/_release/service_center_releaseNotes.md">Edit This Page on Github</a></li>
+        <li><a href="/developers/submit-codes/">Code Submit Guide</a></li>
+        <li><a href="/security">Security</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <ul class="social-icons">
+        <p class="header">Community</p>
+        <li>
+            <a href="mailto:dev-subscribe@servicecomb.incubator.apache.org" rel="nofollow"><span class="mail">Mailing List</span></a>
+        </li>
+        <li>
+            <a href="https://github.com/apache?q=ServiceComb" target="_blank"><span class="github">Github</span></a>
+        </li>
+        <li>
+            <a href="https://twitter.com/ServiceComb" target="_blank"><span class="twitter">Twitter</span></a>
+        </li>
+        <li>
+            <a href="/feed.xml" target="_blank"><span class="rss">Feed</span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="page__footer-bottom">
+  <div>&copy; 2022 Apache ServiceComb. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+  <div>All other marks mentioned may be trademarks or registered trademarks of their respective owners.</div>
+</div>
+
+      </footer>
+    </div>
+
+    <script src="/assets/js/main.min.js"></script>
+
+
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-101622733-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+
+
+  </body>
+</html>

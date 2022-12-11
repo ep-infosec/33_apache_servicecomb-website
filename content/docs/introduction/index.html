@@ -1,0 +1,820 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.4.1 by Michael Rose
+  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Introduction - Apache ServiceComb</title>
+
+
+
+
+<meta name="description" content="ServiceComb Introduction">
+
+
+
+
+<meta name="author" content="">
+
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="Apache ServiceComb">
+<meta property="og:title" content="Introduction">
+
+
+  <link rel="canonical" href="https://github.com/pages/apache/incubator-servicecomb-website/docs/introduction/">
+  <meta property="og:url" content="https://github.com/pages/apache/incubator-servicecomb-website/docs/introduction/">
+
+
+
+  <meta property="og:description" content="ServiceComb Introduction">
+
+
+
+  <meta name="twitter:site" content="@ServiceComb">
+  <meta name="twitter:title" content="Introduction">
+  <meta name="twitter:description" content="ServiceComb Introduction">
+  <meta name="twitter:url" content="">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Apache ServiceComb",
+      "url" : "https://github.com/pages/apache/incubator-servicecomb-website",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+  <meta name="google-site-verification" content="HvJjNd7vvJ-yjSTHlBiIWEYxp_Hrz-PYEY5Idz9LRcA" />
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Apache ServiceComb Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+<script src="/assets/vendor/prism/prism.js"></script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+<script src="https://www.apachecon.com/event-images/snippet.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/assets/vendor/prism/prism.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+<meta http-equiv="cleartype" content="on">
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+<link href="https://fonts.loli.net/css?family=Roboto:400,500,700|Source+Code+Pro" rel="stylesheet">
+<script src="/assets/js/custom.js"></script>
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead" onmouseleave="$('#childrenShow').css('display', 'none')">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+	      
+          <a class="site-title active" href="/"><img src="https://www.apache.org/img/servicecomb.png"></a>
+	      
+        <ul class="visible-links">
+          
+            
+          
+          
+            
+              <li class="masthead__menu-item" onmouseenter="$('#childrenShow').css('display', 'none')">
+                
+                  <a href="/">Home</a>
+                
+              </li>
+            
+          
+            
+          
+          
+            
+              <li class="masthead__menu-item" onmouseenter="$('#childrenShow').css('display', 'none')">
+                
+                  <a href="/developers/">Projects</a>
+                
+              </li>
+            
+          
+            
+          
+          
+            
+            <li class="def-nav-li" onmouseenter="$('#childrenShow').css('display', 'block')">
+              
+              
+              
+
+              
+                <a href="/docs/users/">Documentation</a>
+              
+
+              <ul id="childrenShow" class="def-children-show-en" onmouseleave="$('#childrenShow').css('display', 'none')">
+                
+                <li><a href="/docs/getting-started/" class="">Getting started</a></li>
+                
+                <li><a href="/docs/users/" class="">Docs</a></li>
+                
+                <li><a href="/slides/" class="">Video</a></li>
+                
+                <li><a href="/faqs/" class="">FAQ</a></li>
+                
+              </ul>
+            </li>
+          
+          
+            
+          
+          
+            
+              <li class="masthead__menu-item" onmouseenter="$('#childrenShow').css('display', 'none')">
+                
+                  <a href="/year-archive/">Blogs</a>
+                
+              </li>
+            
+          
+            
+          
+          
+            
+              <li class="masthead__menu-item" onmouseenter="$('#childrenShow').css('display', 'none')">
+                
+                  <a href="/release/">Downloads</a>
+                
+              </li>
+            
+          
+        </ul>
+        <button><div class="navicon"></div></button>
+        <ul class="hidden-links hidden"></ul>
+        <div class="nav-lang">
+          
+            
+            <a href=/cn/docs/introduction/>中文</a>
+          
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+      
+      <div class="back-to-home"><a href="/">Home</a> > Introduction</div>
+      
+  
+  
+    
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          
+          
+
+          <a href="/docs/getting-started/"><span class="nav__sub-title nav__sub-title-with-url">Getting Started</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          
+          
+
+          <a href="/docs/introduction/"><span class="nav__sub-title nav__sub-title-with-url">Introduction</span></a>
+        
+
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Service Center</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/docs/products/service-center/install/" class="">Install</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/docs/products/service-center/registration-discovery/" class="">Registration&Discovery</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Java Chassis</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/docs/products/java-chassis/quick-start/" class="">getting started</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/docs/products/java-chassis/bmi/" class="">Develop microservice application in minutes</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/docs/products/java-chassis/advance/" class="">Advance microservice development</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/docs/products/java-chassis/load-balance/" class="">Load Balance</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/docs/products/java-chassis/flow-control/" class="">Flow Control</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/docs/products/java-chassis/service-management/" class="">Service Management</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/docs/products/java-chassis/distributed-tracing/" class="">Distributed Tracing</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Mesher</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/docs/products/mesher/quick-start/" class="">getting started</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/docs/products/mesher/advance/" class="">mesher Advance</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/docs/products/mesher/load-balance/" class="">mesher balance</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/docs/products/mesher/flow-control/" class="">mesher Flow Control</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/docs/products/mesher/service-management/" class="">mesher Service Management</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/docs/products/mesher/distributed-tracing/" class="">mesher Distributed Tracing</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Toolkit</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/docs/products/toolkit/quick-start/" class="">Quick Start</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/docs/products/toolkit/oas-validator/" class="">OpenAPI V3 Spec validation tools</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Syncer</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/docs/products/syncer/quick-start/" class="">Quick Start</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/docs/products/syncer/multi-servicecenters/" class="">Different service centers communicate with each other</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Introduction">
+    <meta itemprop="description" content="ServiceComb Introduction">
+    
+    <meta itemprop="dateModified" content="November 12, 2019">
+
+    <div class="page__inner-wrap">
+      
+        
+          <header>
+            <h1 class="page__title" itemprop="headline">Introduction
+</h1>
+            
+          </header>
+        
+      
+
+      <section class="page__content" itemprop="text">
+        <aside class="sidebar__right">
+<nav class="toc">
+    <!-- <header><h4 class="nav__title"><i class="fa fa-file-text"></i> On This Page</h4></header> -->
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#apache-servicecomb" id="markdown-toc-apache-servicecomb">Apache ServiceComb</a>    <ul>
+      <li><a href="#servicecomb-architecture" id="markdown-toc-servicecomb-architecture">ServiceComb Architecture</a></li>
+      <li><a href="#service-registryservice-center" id="markdown-toc-service-registryservice-center">Service Registry（Service Center）:</a></li>
+      <li><a href="#configuration-centerkie" id="markdown-toc-configuration-centerkie">Configuration Center（Kie）</a></li>
+      <li><a href="#distributed-transactionpack" id="markdown-toc-distributed-transactionpack">Distributed transaction（Pack）</a></li>
+      <li><a href="#java-microservice-sdkjava-chassis" id="markdown-toc-java-microservice-sdkjava-chassis">Java microservice SDK（Java Chassis）</a></li>
+      <li><a href="#application-runs-as-a-microservice-in-any-language-mesher" id="markdown-toc-application-runs-as-a-microservice-in-any-language-mesher">Application runs as a microservice in any language （Mesher）</a></li>
+      <li><a href="#authnz-of-microservicefence" id="markdown-toc-authnz-of-microservicefence">Authnz of microservice（Fence）</a></li>
+      <li><a href="#a-contract-based-microservice-development-toolkittoolkit" id="markdown-toc-a-contract-based-microservice-development-toolkittoolkit">A contract-based microservice development toolkit（Toolkit）</a></li>
+      <li><a href="#multiple-servicecenters-synchronization-toolssyncer" id="markdown-toc-multiple-servicecenters-synchronization-toolssyncer">Multiple servicecenters synchronization tools（Syncer）</a></li>
+    </ul>
+  </li>
+</ul>
+
+  </nav>
+</aside>
+
+<h2 id="apache-servicecomb">Apache ServiceComb</h2>
+
+<p>Apache ServiceComb provides a complete open-source microservices solution that integrates the open-source ecosystem. Committed to helping enterprises, users, and developers to microservice applications to the cloud easily, to achieve efficient operation and maintenance management of microservice applications.</p>
+
+<h3 id="servicecomb-architecture">ServiceComb Architecture</h3>
+
+<p>ServiceComb, as a microservices solution, contains multiple products. The combination of different products can easily cope with different scenarios of microservices, which facilitates the use of microservices on the cloud.</p>
+
+<p><img src="/assets/images/docs/servicecomb/servicecomb.jpg" alt="1" /></p>
+
+<h3 id="service-registryservice-center">Service Registry（Service Center）:</h3>
+
+<p>ServiceCenter is a service registry. Like other service registry, its main role is to solve the problem of service registration and discovery, that is the problem of dynamic routing. At the same time, in order to better solve the problem of cross-team collaboration, it adds support for contract (based on OpenAPI specifications) services. If it is used with contract tools (Toolkit) or Java microservice development kit (Java Chassis), communication Interfaces will become transparent, allowing users to focus on business development.</p>
+
+<p>Learn more：<a href="/docs/products/service-center/install/">User manual</a></p>
+
+<h3 id="configuration-centerkie">Configuration Center（Kie）</h3>
+
+<p>Kie is a semantic distributed system configuration center. It is designed for cloud-native distributed systems. It aims to provide users with the ability to configure dynamic delivery. At the same time, the key rules are changed from traditional splicing (a.b.timeout = 10s) Redesigned into easy-to-understand semantic type (timeout (service = a, version = b) = 10s), which is convenient for operation and maintenance personnel to understand configurations and manage complex distributed system configurations.</p>
+
+<p>Learn more：<a href="http://servicecomb.apache.org/docs/kie/0.1.0/index.html">User manual</a></p>
+
+<h3 id="distributed-transactionpack">Distributed transaction（Pack）</h3>
+
+<p>Apache ServiceComb Pack is an eventually data consistency solution for micro-service applications.</p>
+
+<p>Features</p>
+<ul>
+  <li>High availability. The coordinator is stateless and thus can have multiple instances.</li>
+  <li>High reliability. All transaction events are stored in database permanently.</li>
+  <li>High performance. Transaction events are reported to coordinator via gRPC and transaction payloads are serialized/deserialized by Kyro.</li>
+  <li>Low invasion. All you need to do is add 2-3 annotations and the corresponding compensate methods.</li>
+  <li>Easy to deploy. All components can boot via docker.</li>
+  <li>Support both forward(retry) and backward(compensate) recovery.</li>
+  <li>Easy to extend other coordination protocol which is based on the Pack, now we have Saga and TCC support out of box.</li>
+</ul>
+
+<p>Learn more：<a href="https://docs.servicecomb.io/saga/en_US/">User manual</a></p>
+
+<h3 id="java-microservice-sdkjava-chassis">Java microservice SDK（Java Chassis）</h3>
+
+<p>Apache ServiceComb Java Chassis is a Software Development Kit (SDK) for rapid development of microservices in Java, providing service registration, service discovery, dynamic routing, and service management features</p>
+
+<ul>
+  <li>
+    <p>High performance</p>
+
+    <p>The transport capability of Java Chassis is based on Vert.x, which enables Java Chassis to process massive requests with relatively less hardware resources, and support reactive develop style.</p>
+  </li>
+  <li>
+    <p>Native support for OpenAPI</p>
+
+    <p>Java Chassis describes the APIs of the microservices via Swagger natively, to help developers to design microservices that comply to OpenAPI standard.</p>
+  </li>
+  <li>
+    <p>Flexible develop style</p>
+
+    <p>Currently Java Chassis allow developers to develop their microservice APIs in SpringMVC/JAX-RS/transparent RPC styles, and to send the request in RPC/RestTemplate styles. And there are three kind of build-in transport mode: Rest over Vertx/Rest over Servlet/Highway. All of these features can be combined and replaced easily, because they are decoupled and all based on the Swagger schema, which can provide high flexibility.</p>
+  </li>
+  <li>
+    <p>Out-of-box microservice governance features</p>
+
+    <p>Java Chassis provides a lot of features for microservice governance and monitor.</p>
+  </li>
+  <li>
+    <p>Multi languages support</p>
+
+    <p>Via ServiceComb Mesher, the microservices built by other languages are also able to work with ServiceComb components. And Java Chassis can communicate with such microservices and make use of the built-in capabilities.</p>
+  </li>
+</ul>
+
+<p>Learn more：<a href="/docs/products/java-chassis/quick-start/">Quick start</a>  <a href="https://docs.servicecomb.io/java-chassis/en_US/index.html">User manual</a></p>
+
+<h3 id="application-runs-as-a-microservice-in-any-language-mesher">Application runs as a microservice in any language （Mesher）</h3>
+
+<p>Mesher is a service mesh project of Apache ServiceComb. It supports applications of any development language in any running environment to quickly access the ServiceComb microservice system. Mesher is implemented using the go language based on the go-chassis open-source framework. It supports plug-in support for microservice capabilities such as load balancing, flow control, call chain tracking, blowdown and degradation, service governance, and dynamic configuration management. Mesher currently supports two modes of operation: sidecar and edge-service. Supports communication between services using HTTP and GRPC protocols. It has good scalability, and users can expand their own protocols by themselves. Mesher processes requests in the form of call chains, and can freely tailor processing functions according to the configuration. On the control plane, Mesher can naturally access the Apache Aervicecomb microservice system. It is compatible with the current mainstream service-mesh, supports Kubernetes, and can be connected to Istio.</p>
+
+<p>Learn more：<a href="/docs/products/mesher/quick-start/">Quick start</a>  <a href="http://servicecomb.apache.org/docs/mesher/1.6.3/index.html">User manual</a></p>
+
+<h3 id="authnz-of-microservicefence">Authnz of microservice（Fence）</h3>
+
+<p>The overall idea of Apache ServiceComb-fence is to combine the OAuth 2 and OpenID Connect protocols to provide the requirements for user diversity authentication. The focus is on ensuring authentication within the system (including using third-party authentication capabilities). OAuth 2 and OpenID connect protocols were originally designed to “provide authentication capabilities to third parties.” Apache ServiceComb-fence meets the protocol standards in terms of solution design and capability opening. The protocol design is born for an ecologically-constructed enterprise, and Apache ServiceComb-fence is to better apply these capabilities to ecologically-participated enterprises, help participate in the ecology, and build an ecology for the future.</p>
+
+<p>Learn more：<a href="https://github.com/apache/servicecomb-fence/blob/master/README.md">User manual</a></p>
+
+<h3 id="a-contract-based-microservice-development-toolkittoolkit">A contract-based microservice development toolkit（Toolkit）</h3>
+
+<p>Apache ServiceComb Toolkit is a contract-based microservice development toolkit. Provides the ability to convert and verify contracts, code, and documents, helping users quickly build microservice projects based on popular microservices frameworks and popular programming models, reducing the cost of microservices entry, enabling users to focus on business development, enhance refactoring and development efficiency.</p>
+
+<p>Features</p>
+<ul>
+  <li>
+    <p>Code extraction service contract</p>
+
+    <p>In applications developed based on the SpringMVC/POJO/JAX-RS model, one-click generation of service contract files conforming to the OpenAPI specification.</p>
+  </li>
+  <li>
+    <p>Service contract generation microservice project</p>
+
+    <p>Enter a service contract that conforms to the OpenAPI specification, one-click generation of a microservice project with ServiceComb/SpringCloud/Swagger as the base microservice framework and SpringMVC/POJO/JAX-RS or SpringBoot as programming model.</p>
+  </li>
+  <li>
+    <p>Service contract and code consistency check</p>
+
+    <p>Verify that the actual implementation of the application (such as the data and service API) is consistent with the agreed service contract description.</p>
+  </li>
+  <li>
+    <p>Service contract style checking and compatibility checking</p>
+
+    <p>The style checking checks whether the contract conforms to [OAS 3.0.2 specification] [openapi-3.0.2] and custom rules; the compatibility checking checks whether new OAS spec compatible with old spec</p>
+  </li>
+  <li>
+    <p>Service contract/code generation document</p>
+
+    <p>Enter a service contract that conforms to the OpenAPI specification, one-click generation of a document in html format.</p>
+  </li>
+</ul>
+
+<p>Learn more：<a href="/docs/products/toolkit/quick-start/">Quick start</a></p>
+
+<h3 id="multiple-servicecenters-synchronization-toolssyncer">Multiple servicecenters synchronization tools（Syncer）</h3>
+
+<p>Syncer is a multiple servicecenters synchronization tool, which is specially designed for large microservice architectures. It is used to synchronize differ-structure servicecenters and cross-region instances in the case of network interconnection. In the future, it will provide support for cross-network, cross-cloud and other scenarios. Syncer exists in the form of a servicecenter’s companion system. It is mainly responsible for finding instances from the current service center and broadcasting to other members of the network; receiving broadcasts from other members, and pulling instance information to register with the current service center. Syncer has the following features:</p>
+
+<ul>
+  <li>Zero intrusion in business architecture. Syncer synchronizes instance information for the service center in a transparent form. It does not participate in the original business process, and the service does not need to sense its existence.</li>
+  <li>Unbound servicecenter, compatible with ecology, supports access to differ-structure servicecenters.</li>
+  <li>Construct a centerless peer-to-peer network based on Serf (the implementation of the gossip protocol). Members can join and leave freely without affecting the Syncer network and servicecenter.</li>
+  <li>It is transmitted in the network with a unified data structure, and the conversion of the data structure is distributed to each Syncer. It only needs to handle the conversion between the current service center data structure and SyncData to achieve maximum data compatibility.</li>
+  <li>Support the service center in the form of golang plug-in, users can freely expand the servicecenter that needs to be accessed. The new servicecenter is added, and the data can be synchronized in the Syncer network by simply converting to SyncerData in its accompanying Syncer without the cooperation of other members.</li>
+  <li>Service configuration, deployment, upgrade, and maintenance are still completed in a single servicecenter, without additional business maintenance costs.</li>
+</ul>
+
+<p>Learn more：<a href="/docs/products/syncer/quick-start/">Quick start</a></p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div align="center" style="margin: 0 0;">
+    <ins class="adsbygoogle"
+         style="display:block; border-bottom: initial;"
+         data-ad-client="ca-pub-7328585512091257"
+         data-ad-slot="3049671934"
+         data-ad-format="auto"></ins>
+    </div>
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+
+        <div class="container">
+  <div class="row justify-content-md-center">
+    
+    <div class="col">
+      <ul>
+        <p class="header">Events</p>
+        <a class="acevent" data-format="square" data-mode="dark" data-event="random"></a>
+      </ul>
+    </div>
+    <div class="col">
+      <ul>
+        <p class="header">Resources</p>
+        <li><a href="/docs/getting-started/">Getting started</a></li>
+        <li><a href="/docs/users/">User Guide</a></li>
+        <li><a href="/slides/">Slides</a></li>
+        <li><a href="/users/faq/">Common Questions</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <ul>
+        <p class="header">ASF</p>
+        <li><a href="http://www.apache.org">Foundation</a></li>
+        <li><a href="http://www.apache.org/licenses/">License</a></li>
+        <li><a href="http://www.apache.org/events/current-event">Events</a></li>
+        <li><a href="http://www.apache.org/foundation/sponsorship.html">Sponsorship</a></li>
+        <li><a href="http://www.apache.org/foundation/thanks.html">Thanks</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <ul>
+        <p class="header">Contribute</p>
+        <li><a href="http://issues.apache.org/jira/browse/SCB">Report a Doc Issue</a></li>
+        <li><a href="https://github.com/apache/servicecomb-website/edit/master/_docs/introduction/introduction.md">Edit This Page on Github</a></li>
+        <li><a href="/developers/submit-codes/">Code Submit Guide</a></li>
+        <li><a href="/security">Security</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <ul class="social-icons">
+        <p class="header">Community</p>
+        <li>
+            <a href="mailto:dev-subscribe@servicecomb.incubator.apache.org" rel="nofollow"><span class="mail">Mailing List</span></a>
+        </li>
+        <li>
+            <a href="https://github.com/apache?q=ServiceComb" target="_blank"><span class="github">Github</span></a>
+        </li>
+        <li>
+            <a href="https://twitter.com/ServiceComb" target="_blank"><span class="twitter">Twitter</span></a>
+        </li>
+        <li>
+            <a href="/feed.xml" target="_blank"><span class="rss">Feed</span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="page__footer-bottom">
+  <div>&copy; 2022 Apache ServiceComb. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+  <div>All other marks mentioned may be trademarks or registered trademarks of their respective owners.</div>
+</div>
+
+      </footer>
+    </div>
+
+    <script src="/assets/js/main.min.js"></script>
+
+
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-101622733-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+
+
+  </body>
+</html>
